@@ -1,0 +1,111 @@
+syntax = "proto3";
+option java_multiple_files = true;
+
+package protobuf.run;
+
+message Run {
+  repeated NetAction netActions = 1;
+  Net net = 2;
+  optional int64 endTime = 3;
+}
+
+message NetAction{
+  string netId = 1;
+  repeated Action actions = 2;
+}
+
+message Action {
+  optional int64 startTime = 1;
+  optional string eventTypeId = 2;
+  repeated TokenMove removeTokens = 3;
+  repeated TokenMove addTokens = 4;
+  optional string viaTransitionId = 5;
+  Color color = 6;
+}
+
+
+message TokenMove {
+  string tokenId = 1;
+  string placeId = 2;
+}
+
+
+message Net{
+  string id = 1;
+  optional string name = 2;
+  repeated Place places = 3;
+  repeated Transition transitions = 4;
+  repeated Arc arcs = 5;
+  repeated Token tokens = 6;
+  repeated InitialMarking initialMarking = 7;
+  optional double positionX = 8;
+  optional double positionY = 9;
+  repeated AgentNet agentNets = 10;
+}
+
+message AgentNet {
+  string id = 1;
+  optional string name = 2;
+  repeated Place places = 3;
+  repeated Transition transitions = 4;
+  repeated Arc arcs = 5;
+  repeated Token tokens = 6;
+  repeated InitialMarking initialMarking = 7;
+  repeated ActiveInterval activeIntervals = 8;
+  optional double positionX = 9;
+  optional double positionY = 10;
+}
+
+message Place {
+  string id = 1;
+  optional string name = 2;
+  optional double x = 3;
+  optional double y = 4;
+  optional double width = 5;
+  optional double height = 6;
+}
+
+message Transition {
+  string id = 1;
+  optional string name = 2;
+  optional double x = 3;
+  optional double y = 4;
+  optional double width = 5;
+  optional double height = 6;
+}
+
+message Arc {
+  string id = 1;
+  optional string name = 2;
+  string sourceId = 3;
+  string targetId = 4;
+  repeated Coordinate coordinates = 5;
+}
+
+message InitialMarking {
+  string tokenId = 1;
+  string placeId = 2;
+}
+
+message Token {
+  string id = 1;
+  optional string name = 2;
+  optional string agentNet = 4;
+  optional Color color = 5;
+}
+
+message ActiveInterval {
+  optional int64 startTime = 1;
+  optional int64 endTime = 2;
+}
+
+message Coordinate{
+  optional double x = 1;
+  optional double y = 2;
+}
+
+message Color{
+  optional int32 r = 1;
+  optional int32 g = 2;
+  optional int32 b = 3;
+}

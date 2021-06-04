@@ -1,0 +1,34 @@
+syntax = "proto3";
+option java_multiple_files = true;
+
+package protobuf.usertrace;
+
+message UserTrace {
+  repeated NetAction actions = 1;
+  repeated EventType eventTypes = 2;
+  int64 endTime = 3;
+}
+
+message NetAction{
+  string netId = 1;
+  repeated Action actions = 2;
+}
+
+message Action {
+  int64 startTime = 1;
+  string eventTypeId = 2;
+  repeated TokenMove removeTokens = 3;
+  repeated TokenMove addTokens = 4;
+  string viaTransitionId = 5;
+}
+
+message TokenMove {
+  string tokenId = 1;
+  string placeId = 2;
+}
+
+message EventType {
+  string id = 1;
+  string name = 2;
+  optional int64 importance = 3;
+}

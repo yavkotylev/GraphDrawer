@@ -1,0 +1,6313 @@
+{
+  "netActions": [{
+    "netId": "systemNet",
+    "actions": [{
+      "startTime": "5",
+      "eventTypeId": "9Type",
+      "removeTokens": [{
+        "tokenId": "tn1",
+        "placeId": "p1"
+      }],
+      "addTokens": [{
+        "tokenId": "tn1",
+        "placeId": "p2"
+      }],
+      "viaTransitionId": "t1",
+      "color": {
+        "r": 241,
+        "g": 178,
+        "b": 215
+      }
+    }, {
+      "startTime": "15",
+      "eventTypeId": "9Type",
+      "removeTokens": [{
+        "tokenId": "tn1",
+        "placeId": "p2"
+      }],
+      "addTokens": [{
+        "tokenId": "tn1",
+        "placeId": "p3"
+      }],
+      "viaTransitionId": "t1",
+      "color": {
+        "r": 241,
+        "g": 178,
+        "b": 215
+      }
+    }, {
+      "startTime": "25",
+      "eventTypeId": "9Type",
+      "removeTokens": [{
+        "tokenId": "tn1",
+        "placeId": "p3"
+      }],
+      "addTokens": [{
+        "tokenId": "tn1_4",
+        "placeId": "pc4_1"
+      }, {
+        "tokenId": "tn1_3",
+        "placeId": "pc3_1"
+      }],
+      "viaTransitionId": "t2",
+      "color": {
+        "r": 241,
+        "g": 178,
+        "b": 215
+      }
+    }, {
+      "startTime": "40",
+      "eventTypeId": "0Type",
+      "removeTokens": [{
+        "tokenId": "tn1_4",
+        "placeId": "pc4_1"
+      }],
+      "addTokens": [{
+        "tokenId": "tn1_4_1",
+        "placeId": "pc4_3"
+      }, {
+        "tokenId": "tn1_4_2",
+        "placeId": "pc4_2"
+      }],
+      "viaTransitionId": "tpc4_1",
+      "color": {
+        "r": 40,
+        "g": 63,
+        "b": 240
+      }
+    }, {
+      "startTime": "45",
+      "eventTypeId": "9Type",
+      "removeTokens": [{
+        "tokenId": "tn1_4_1",
+        "placeId": "pc4_3"
+      }],
+      "addTokens": [{
+        "tokenId": "tn1_4_1",
+        "placeId": "pc4_3"
+      }],
+      "viaTransitionId": "tpc4_3",
+      "color": {
+        "r": 241,
+        "g": 178,
+        "b": 215
+      }
+    }, {
+      "startTime": "50",
+      "eventTypeId": "9Type",
+      "removeTokens": [{
+        "tokenId": "tn1_4_1",
+        "placeId": "pc4_3"
+      }],
+      "addTokens": [{
+        "tokenId": "tn1_4_1",
+        "placeId": "pc4_8"
+      }],
+      "viaTransitionId": "tpc4_3",
+      "color": {
+        "r": 241,
+        "g": 178,
+        "b": 215
+      }
+    }, {
+      "startTime": "55",
+      "eventTypeId": "9Type",
+      "removeTokens": [{
+        "tokenId": "tn1_4_1",
+        "placeId": "pc4_8"
+      }, {
+        "tokenId": "tn1_4_2",
+        "placeId": "pc4_2"
+      }],
+      "addTokens": [{
+        "tokenId": "tn1_4",
+        "placeId": "pc4_4"
+      }],
+      "viaTransitionId": "tpc4_2",
+      "color": {
+        "r": 241,
+        "g": 178,
+        "b": 215
+      }
+    }, {
+      "startTime": "70",
+      "eventTypeId": "2Type",
+      "removeTokens": [{
+        "tokenId": "tn1_4",
+        "placeId": "pc4_4"
+      }],
+      "addTokens": [{
+        "tokenId": "tn1_4",
+        "placeId": "pc4_5"
+      }],
+      "viaTransitionId": "tpc4_4",
+      "color": {
+        "r": 193,
+        "g": 129,
+        "b": 122
+      }
+    }, {
+      "startTime": "83",
+      "eventTypeId": "3Type",
+      "removeTokens": [{
+        "tokenId": "tn1_4",
+        "placeId": "pc4_5"
+      }],
+      "addTokens": [{
+        "tokenId": "tn1_4",
+        "placeId": "pc4_6"
+      }],
+      "viaTransitionId": "tpc4_5",
+      "color": {
+        "r": 194,
+        "g": 59,
+        "b": 159
+      }
+    }, {
+      "startTime": "50",
+      "eventTypeId": "9Type",
+      "removeTokens": [{
+        "tokenId": "tn1_3",
+        "placeId": "pc3_1"
+      }],
+      "addTokens": [{
+        "tokenId": "tn1_3",
+        "placeId": "pc3_6"
+      }],
+      "viaTransitionId": "tpc3_1",
+      "color": {
+        "r": 241,
+        "g": 178,
+        "b": 215
+      }
+    }, {
+      "startTime": "86",
+      "eventTypeId": "9Type",
+      "removeTokens": [{
+        "tokenId": "tn1_3",
+        "placeId": "pc3_6"
+      }],
+      "addTokens": [{
+        "tokenId": "tn1_3",
+        "placeId": "pc3_4"
+      }],
+      "viaTransitionId": "tpc3_5",
+      "color": {
+        "r": 241,
+        "g": 178,
+        "b": 215
+      }
+    }, {
+      "startTime": "90",
+      "eventTypeId": "3Type",
+      "removeTokens": [{
+        "tokenId": "tn1_3",
+        "placeId": "pc3_4"
+      }],
+      "addTokens": [{
+        "tokenId": "tn1_3",
+        "placeId": "pc3_5"
+      }],
+      "viaTransitionId": "tpc3_4",
+      "color": {
+        "r": 194,
+        "g": 59,
+        "b": 159
+      }
+    }, {
+      "startTime": "95",
+      "eventTypeId": "9Type",
+      "removeTokens": [{
+        "tokenId": "tn1_3",
+        "placeId": "pc3_5"
+      }, {
+        "tokenId": "tn1_4",
+        "placeId": "pc4_6"
+      }],
+      "addTokens": [{
+        "tokenId": "tn1",
+        "placeId": "p4"
+      }],
+      "viaTransitionId": "t3",
+      "color": {
+        "r": 241,
+        "g": 178,
+        "b": 215
+      }
+    }, {
+      "startTime": "7",
+      "eventTypeId": "11Type",
+      "removeTokens": [{
+        "tokenId": "tn2",
+        "placeId": "p2"
+      }],
+      "addTokens": [{
+        "tokenId": "tn2",
+        "placeId": "p3"
+      }],
+      "viaTransitionId": "t1",
+      "color": {
+        "r": 121,
+        "g": 247,
+        "b": 9
+      }
+    }, {
+      "startTime": "19",
+      "eventTypeId": "11Type",
+      "removeTokens": [{
+        "tokenId": "tn2",
+        "placeId": "p3"
+      }],
+      "addTokens": [{
+        "tokenId": "tn2_2",
+        "placeId": "pc2_1"
+      }, {
+        "tokenId": "tn2_4",
+        "placeId": "pc4_1"
+      }, {
+        "tokenId": "tn2_5",
+        "placeId": "pc5_1"
+      }],
+      "viaTransitionId": "t2",
+      "color": {
+        "r": 121,
+        "g": 247,
+        "b": 9
+      }
+    }, {
+      "startTime": "25",
+      "eventTypeId": "11Type",
+      "removeTokens": [{
+        "tokenId": "tn2_2",
+        "placeId": "pc2_1"
+      }],
+      "addTokens": [{
+        "tokenId": "tn2_2",
+        "placeId": "pc2_2"
+      }],
+      "viaTransitionId": "tpc2_1",
+      "color": {
+        "r": 121,
+        "g": 247,
+        "b": 9
+      }
+    }, {
+      "startTime": "35",
+      "eventTypeId": "11Type",
+      "removeTokens": [{
+        "tokenId": "tn2_2",
+        "placeId": "pc2_2"
+      }],
+      "addTokens": [{
+        "tokenId": "tn2_2",
+        "placeId": "pc2_3"
+      }],
+      "viaTransitionId": "tpc2_2",
+      "color": {
+        "r": 121,
+        "g": 247,
+        "b": 9
+      }
+    }, {
+      "startTime": "80",
+      "eventTypeId": "11Type",
+      "removeTokens": [{
+        "tokenId": "tn2_2",
+        "placeId": "pc2_3"
+      }],
+      "addTokens": [{
+        "tokenId": "tn2_2",
+        "placeId": "pc2_4"
+      }],
+      "viaTransitionId": "tpc2_3",
+      "color": {
+        "r": 121,
+        "g": 247,
+        "b": 9
+      }
+    }, {
+      "startTime": "85",
+      "eventTypeId": "11Type",
+      "removeTokens": [{
+        "tokenId": "tn2_2",
+        "placeId": "pc2_4"
+      }],
+      "addTokens": [{
+        "tokenId": "tn2_2",
+        "placeId": "pc2_5"
+      }],
+      "viaTransitionId": "tpc2_4",
+      "color": {
+        "r": 121,
+        "g": 247,
+        "b": 9
+      }
+    }, {
+      "startTime": "50",
+      "eventTypeId": "11Type",
+      "removeTokens": [{
+        "tokenId": "tn2_4",
+        "placeId": "pc4_1"
+      }],
+      "addTokens": [{
+        "tokenId": "tn2_4_1",
+        "placeId": "pc4_3"
+      }, {
+        "tokenId": "tn2_4_2",
+        "placeId": "pc4_2"
+      }],
+      "viaTransitionId": "tpc4_1",
+      "color": {
+        "r": 121,
+        "g": 247,
+        "b": 9
+      }
+    }, {
+      "startTime": "52",
+      "eventTypeId": "11Type",
+      "removeTokens": [{
+        "tokenId": "tn2_4_1",
+        "placeId": "pc4_3"
+      }],
+      "addTokens": [{
+        "tokenId": "tn2_4_1",
+        "placeId": "pc4_8"
+      }],
+      "viaTransitionId": "tpc4_3",
+      "color": {
+        "r": 121,
+        "g": 247,
+        "b": 9
+      }
+    }, {
+      "startTime": "58",
+      "eventTypeId": "11Type",
+      "removeTokens": [{
+        "tokenId": "tn2_4_1",
+        "placeId": "pc4_8"
+      }, {
+        "tokenId": "tn2_4_2",
+        "placeId": "pc4_2"
+      }],
+      "addTokens": [{
+        "tokenId": "tn2_4",
+        "placeId": "pc4_4"
+      }],
+      "viaTransitionId": "tpc4_2",
+      "color": {
+        "r": 121,
+        "g": 247,
+        "b": 9
+      }
+    }, {
+      "startTime": "160",
+      "eventTypeId": "11Type",
+      "removeTokens": [{
+        "tokenId": "tn2_4",
+        "placeId": "pc4_4"
+      }],
+      "addTokens": [{
+        "tokenId": "tn2_4",
+        "placeId": "pc4_5"
+      }],
+      "viaTransitionId": "tpc4_4",
+      "color": {
+        "r": 121,
+        "g": 247,
+        "b": 9
+      }
+    }, {
+      "startTime": "170",
+      "eventTypeId": "11Type",
+      "removeTokens": [{
+        "tokenId": "tn2_4",
+        "placeId": "pc4_5"
+      }],
+      "addTokens": [{
+        "tokenId": "tn2_4",
+        "placeId": "pc4_6"
+      }],
+      "viaTransitionId": "tpc4_5",
+      "color": {
+        "r": 121,
+        "g": 247,
+        "b": 9
+      }
+    }, {
+      "startTime": "39",
+      "eventTypeId": "11Type",
+      "removeTokens": [{
+        "tokenId": "tn2_5",
+        "placeId": "pc5_1"
+      }],
+      "addTokens": [{
+        "tokenId": "tn2_5",
+        "placeId": "pc5_2"
+      }],
+      "viaTransitionId": "tpc5_1",
+      "color": {
+        "r": 121,
+        "g": 247,
+        "b": 9
+      }
+    }, {
+      "startTime": "45",
+      "eventTypeId": "11Type",
+      "removeTokens": [{
+        "tokenId": "tn2_5",
+        "placeId": "pc5_2"
+      }],
+      "addTokens": [{
+        "tokenId": "tn2_5",
+        "placeId": "pc5_3"
+      }],
+      "viaTransitionId": "tpc5_2",
+      "color": {
+        "r": 121,
+        "g": 247,
+        "b": 9
+      }
+    }, {
+      "startTime": "135",
+      "eventTypeId": "11Type",
+      "removeTokens": [{
+        "tokenId": "tn2_5",
+        "placeId": "pc5_3"
+      }],
+      "addTokens": [{
+        "tokenId": "tn2_5",
+        "placeId": "pc5_4"
+      }],
+      "viaTransitionId": "tpc5_3",
+      "color": {
+        "r": 121,
+        "g": 247,
+        "b": 9
+      }
+    }, {
+      "startTime": "145",
+      "eventTypeId": "11Type",
+      "removeTokens": [{
+        "tokenId": "tn2_5",
+        "placeId": "pc5_4"
+      }],
+      "addTokens": [{
+        "tokenId": "tn2_5",
+        "placeId": "pc5_5"
+      }],
+      "viaTransitionId": "tpc5_4",
+      "color": {
+        "r": 121,
+        "g": 247,
+        "b": 9
+      }
+    }, {
+      "startTime": "180",
+      "eventTypeId": "11Type",
+      "removeTokens": [{
+        "tokenId": "tn2_2",
+        "placeId": "pc2_5"
+      }, {
+        "tokenId": "tn2_4",
+        "placeId": "pc4_6"
+      }, {
+        "tokenId": "tn2_5",
+        "placeId": "pc5_5"
+      }],
+      "addTokens": [{
+        "tokenId": "tn2",
+        "placeId": "p4"
+      }],
+      "viaTransitionId": "t3",
+      "color": {
+        "r": 121,
+        "g": 247,
+        "b": 9
+      }
+    }, {
+      "startTime": "10",
+      "eventTypeId": "11Type",
+      "removeTokens": [{
+        "tokenId": "tn3",
+        "placeId": "p2"
+      }],
+      "addTokens": [{
+        "tokenId": "tn3",
+        "placeId": "p2"
+      }],
+      "viaTransitionId": "t1",
+      "color": {
+        "r": 121,
+        "g": 247,
+        "b": 9
+      }
+    }, {
+      "startTime": "15",
+      "eventTypeId": "11Type",
+      "removeTokens": [{
+        "tokenId": "tn3",
+        "placeId": "p2"
+      }],
+      "addTokens": [{
+        "tokenId": "tn3",
+        "placeId": "p2"
+      }],
+      "viaTransitionId": "t1",
+      "color": {
+        "r": 121,
+        "g": 247,
+        "b": 9
+      }
+    }, {
+      "startTime": "20",
+      "eventTypeId": "11Type",
+      "removeTokens": [{
+        "tokenId": "tn3",
+        "placeId": "p2"
+      }],
+      "addTokens": [{
+        "tokenId": "tn3",
+        "placeId": "p2"
+      }],
+      "viaTransitionId": "t1",
+      "color": {
+        "r": 121,
+        "g": 247,
+        "b": 9
+      }
+    }, {
+      "startTime": "30",
+      "eventTypeId": "11Type",
+      "removeTokens": [{
+        "tokenId": "tn3",
+        "placeId": "p2"
+      }],
+      "addTokens": [{
+        "tokenId": "tn3",
+        "placeId": "p3"
+      }],
+      "viaTransitionId": "t1",
+      "color": {
+        "r": 121,
+        "g": 247,
+        "b": 9
+      }
+    }, {
+      "startTime": "60",
+      "eventTypeId": "11Type",
+      "removeTokens": [{
+        "tokenId": "tn3",
+        "placeId": "p3"
+      }],
+      "addTokens": [{
+        "tokenId": "tn3_1",
+        "placeId": "pc1_1"
+      }, {
+        "tokenId": "tn3_3",
+        "placeId": "pc3_1"
+      }, {
+        "tokenId": "tn3_5",
+        "placeId": "pc5_1"
+      }],
+      "viaTransitionId": "t2",
+      "color": {
+        "r": 121,
+        "g": 247,
+        "b": 9
+      }
+    }, {
+      "startTime": "65",
+      "eventTypeId": "11Type",
+      "removeTokens": [{
+        "tokenId": "tn3_1",
+        "placeId": "pc1_1"
+      }],
+      "addTokens": [{
+        "tokenId": "tn3_1",
+        "placeId": "pc1_2"
+      }],
+      "viaTransitionId": "tpc1_1",
+      "color": {
+        "r": 121,
+        "g": 247,
+        "b": 9
+      }
+    }, {
+      "startTime": "160",
+      "eventTypeId": "11Type",
+      "removeTokens": [{
+        "tokenId": "tn3_1",
+        "placeId": "pc1_2"
+      }],
+      "addTokens": [{
+        "tokenId": "tn3_1",
+        "placeId": "pc1_5"
+      }],
+      "viaTransitionId": "tpc1_2",
+      "color": {
+        "r": 121,
+        "g": 247,
+        "b": 9
+      }
+    }, {
+      "startTime": "67",
+      "eventTypeId": "11Type",
+      "removeTokens": [{
+        "tokenId": "tn3_3",
+        "placeId": "pc3_1"
+      }],
+      "addTokens": [{
+        "tokenId": "tn3_3",
+        "placeId": "pc3_2"
+      }],
+      "viaTransitionId": "tpc3_1",
+      "color": {
+        "r": 121,
+        "g": 247,
+        "b": 9
+      }
+    }, {
+      "startTime": "170",
+      "eventTypeId": "11Type",
+      "removeTokens": [{
+        "tokenId": "tn3_3",
+        "placeId": "pc3_2"
+      }],
+      "addTokens": [{
+        "tokenId": "tn3_3",
+        "placeId": "pc3_7"
+      }],
+      "viaTransitionId": "tpc3_2",
+      "color": {
+        "r": 121,
+        "g": 247,
+        "b": 9
+      }
+    }, {
+      "startTime": "69",
+      "eventTypeId": "11Type",
+      "removeTokens": [{
+        "tokenId": "tn3_5",
+        "placeId": "pc5_1"
+      }],
+      "addTokens": [{
+        "tokenId": "tn3_5",
+        "placeId": "pc5_2"
+      }],
+      "viaTransitionId": "tpc5_1",
+      "color": {
+        "r": 121,
+        "g": 247,
+        "b": 9
+      }
+    }, {
+      "startTime": "73",
+      "eventTypeId": "11Type",
+      "removeTokens": [{
+        "tokenId": "tn3_5",
+        "placeId": "pc5_2"
+      }],
+      "addTokens": [{
+        "tokenId": "tn3_5",
+        "placeId": "pc5_2"
+      }],
+      "viaTransitionId": "tpc5_2",
+      "color": {
+        "r": 121,
+        "g": 247,
+        "b": 9
+      }
+    }, {
+      "startTime": "79",
+      "eventTypeId": "11Type",
+      "removeTokens": [{
+        "tokenId": "tn3_5",
+        "placeId": "pc5_2"
+      }],
+      "addTokens": [{
+        "tokenId": "tn3_5",
+        "placeId": "pc5_2"
+      }],
+      "viaTransitionId": "tpc5_2",
+      "color": {
+        "r": 121,
+        "g": 247,
+        "b": 9
+      }
+    }, {
+      "startTime": "85",
+      "eventTypeId": "11Type",
+      "removeTokens": [{
+        "tokenId": "tn3_5",
+        "placeId": "pc5_2"
+      }],
+      "addTokens": [{
+        "tokenId": "tn3_5",
+        "placeId": "pc5_2"
+      }],
+      "viaTransitionId": "tpc5_2",
+      "color": {
+        "r": 121,
+        "g": 247,
+        "b": 9
+      }
+    }, {
+      "startTime": "95",
+      "eventTypeId": "11Type",
+      "removeTokens": [{
+        "tokenId": "tn3_5",
+        "placeId": "pc5_2"
+      }],
+      "addTokens": [{
+        "tokenId": "tn3_5",
+        "placeId": "pc5_3"
+      }],
+      "viaTransitionId": "tpc5_2",
+      "color": {
+        "r": 121,
+        "g": 247,
+        "b": 9
+      }
+    }, {
+      "startTime": "184",
+      "eventTypeId": "11Type",
+      "removeTokens": [{
+        "tokenId": "tn3_5",
+        "placeId": "pc5_3"
+      }],
+      "addTokens": [{
+        "tokenId": "tn3_5",
+        "placeId": "pc5_6"
+      }],
+      "viaTransitionId": "tpc5_3",
+      "color": {
+        "r": 121,
+        "g": 247,
+        "b": 9
+      }
+    }, {
+      "startTime": "190",
+      "eventTypeId": "11Type",
+      "removeTokens": [{
+        "tokenId": "tn3_1",
+        "placeId": "pc1_5"
+      }, {
+        "tokenId": "tn3_3",
+        "placeId": "pc3_7"
+      }, {
+        "tokenId": "tn3_5",
+        "placeId": "pc5_6"
+      }],
+      "addTokens": [{
+        "tokenId": "tn3",
+        "placeId": "p5"
+      }],
+      "viaTransitionId": "t3",
+      "color": {
+        "r": 121,
+        "g": 247,
+        "b": 9
+      }
+    }]
+  }, {
+    "netId": "student_2",
+    "actions": [{
+      "startTime": "7",
+      "eventTypeId": "5Type",
+      "removeTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p1"
+      }],
+      "addTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p2"
+      }],
+      "viaTransitionId": "st2_t1",
+      "color": {
+        "r": 18,
+        "g": 60,
+        "b": 138
+      }
+    }, {
+      "startTime": "25",
+      "eventTypeId": "6Type",
+      "removeTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p2"
+      }],
+      "addTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p3"
+      }],
+      "viaTransitionId": "st2_t2",
+      "color": {
+        "r": 56,
+        "g": 250,
+        "b": 192
+      }
+    }, {
+      "startTime": "28",
+      "eventTypeId": "8Type",
+      "removeTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p3"
+      }],
+      "addTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p4"
+      }],
+      "viaTransitionId": "st2_t3",
+      "color": {
+        "r": 113,
+        "g": 210,
+        "b": 200
+      }
+    }, {
+      "startTime": "30",
+      "eventTypeId": "7Type",
+      "removeTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p4"
+      }],
+      "addTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p3"
+      }],
+      "viaTransitionId": "st2_t4",
+      "color": {
+        "r": 164,
+        "g": 187,
+        "b": 64
+      }
+    }, {
+      "startTime": "33",
+      "eventTypeId": "9Type",
+      "removeTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p3"
+      }],
+      "addTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p5"
+      }],
+      "viaTransitionId": "st2_t5",
+      "color": {
+        "r": 241,
+        "g": 178,
+        "b": 215
+      }
+    }, {
+      "startTime": "35",
+      "eventTypeId": "10Type",
+      "removeTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p5"
+      }],
+      "addTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p3"
+      }],
+      "viaTransitionId": "st2_t6",
+      "color": {
+        "r": 184,
+        "g": 78,
+        "b": 134
+      }
+    }, {
+      "startTime": "39",
+      "eventTypeId": "8Type",
+      "removeTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p3"
+      }],
+      "addTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p4"
+      }],
+      "viaTransitionId": "st2_t3",
+      "color": {
+        "r": 113,
+        "g": 210,
+        "b": 200
+      }
+    }, {
+      "startTime": "42",
+      "eventTypeId": "7Type",
+      "removeTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p4"
+      }],
+      "addTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p3"
+      }],
+      "viaTransitionId": "st2_t4",
+      "color": {
+        "r": 164,
+        "g": 187,
+        "b": 64
+      }
+    }, {
+      "startTime": "45",
+      "eventTypeId": "8Type",
+      "removeTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p3"
+      }],
+      "addTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p4"
+      }],
+      "viaTransitionId": "st2_t3",
+      "color": {
+        "r": 113,
+        "g": 210,
+        "b": 200
+      }
+    }, {
+      "startTime": "49",
+      "eventTypeId": "7Type",
+      "removeTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p4"
+      }],
+      "addTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p3"
+      }],
+      "viaTransitionId": "st2_t4",
+      "color": {
+        "r": 164,
+        "g": 187,
+        "b": 64
+      }
+    }, {
+      "startTime": "53",
+      "eventTypeId": "8Type",
+      "removeTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p3"
+      }],
+      "addTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p4"
+      }],
+      "viaTransitionId": "st2_t3",
+      "color": {
+        "r": 113,
+        "g": 210,
+        "b": 200
+      }
+    }, {
+      "startTime": "60",
+      "eventTypeId": "7Type",
+      "removeTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p4"
+      }],
+      "addTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p3"
+      }],
+      "viaTransitionId": "st2_t4",
+      "color": {
+        "r": 164,
+        "g": 187,
+        "b": 64
+      }
+    }, {
+      "startTime": "63",
+      "eventTypeId": "8Type",
+      "removeTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p3"
+      }],
+      "addTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p4"
+      }],
+      "viaTransitionId": "st2_t3",
+      "color": {
+        "r": 113,
+        "g": 210,
+        "b": 200
+      }
+    }, {
+      "startTime": "69",
+      "eventTypeId": "7Type",
+      "removeTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p4"
+      }],
+      "addTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p3"
+      }],
+      "viaTransitionId": "st2_t4",
+      "color": {
+        "r": 164,
+        "g": 187,
+        "b": 64
+      }
+    }, {
+      "startTime": "73",
+      "eventTypeId": "8Type",
+      "removeTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p3"
+      }],
+      "addTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p4"
+      }],
+      "viaTransitionId": "st2_t3",
+      "color": {
+        "r": 113,
+        "g": 210,
+        "b": 200
+      }
+    }, {
+      "startTime": "79",
+      "eventTypeId": "7Type",
+      "removeTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p4"
+      }],
+      "addTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p3"
+      }],
+      "viaTransitionId": "st2_t4",
+      "color": {
+        "r": 164,
+        "g": 187,
+        "b": 64
+      }
+    }, {
+      "startTime": "83",
+      "eventTypeId": "8Type",
+      "removeTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p3"
+      }],
+      "addTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p4"
+      }],
+      "viaTransitionId": "st2_t3",
+      "color": {
+        "r": 113,
+        "g": 210,
+        "b": 200
+      }
+    }, {
+      "startTime": "84",
+      "eventTypeId": "9Type",
+      "removeTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p4"
+      }],
+      "addTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p5"
+      }],
+      "viaTransitionId": "st2_t5",
+      "color": {
+        "r": 241,
+        "g": 178,
+        "b": 215
+      }
+    }, {
+      "startTime": "85",
+      "eventTypeId": "10Type",
+      "removeTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p5"
+      }],
+      "addTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p3"
+      }],
+      "viaTransitionId": "st2_t6",
+      "color": {
+        "r": 184,
+        "g": 78,
+        "b": 134
+      }
+    }, {
+      "startTime": "89",
+      "eventTypeId": "7Type",
+      "removeTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p4"
+      }],
+      "addTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p3"
+      }],
+      "viaTransitionId": "st2_t4",
+      "color": {
+        "r": 164,
+        "g": 187,
+        "b": 64
+      }
+    }, {
+      "startTime": "93",
+      "eventTypeId": "8Type",
+      "removeTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p3"
+      }],
+      "addTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p4"
+      }],
+      "viaTransitionId": "st2_t3",
+      "color": {
+        "r": 113,
+        "g": 210,
+        "b": 200
+      }
+    }, {
+      "startTime": "99",
+      "eventTypeId": "7Type",
+      "removeTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p4"
+      }],
+      "addTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p3"
+      }],
+      "viaTransitionId": "st2_t4",
+      "color": {
+        "r": 164,
+        "g": 187,
+        "b": 64
+      }
+    }, {
+      "startTime": "100",
+      "eventTypeId": "8Type",
+      "removeTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p3"
+      }],
+      "addTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p4"
+      }],
+      "viaTransitionId": "st2_t3",
+      "color": {
+        "r": 113,
+        "g": 210,
+        "b": 200
+      }
+    }, {
+      "startTime": "102",
+      "eventTypeId": "7Type",
+      "removeTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p4"
+      }],
+      "addTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p3"
+      }],
+      "viaTransitionId": "st2_t4",
+      "color": {
+        "r": 164,
+        "g": 187,
+        "b": 64
+      }
+    }, {
+      "startTime": "104",
+      "eventTypeId": "8Type",
+      "removeTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p3"
+      }],
+      "addTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p4"
+      }],
+      "viaTransitionId": "st2_t3",
+      "color": {
+        "r": 113,
+        "g": 210,
+        "b": 200
+      }
+    }, {
+      "startTime": "106",
+      "eventTypeId": "7Type",
+      "removeTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p4"
+      }],
+      "addTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p3"
+      }],
+      "viaTransitionId": "st2_t4",
+      "color": {
+        "r": 164,
+        "g": 187,
+        "b": 64
+      }
+    }, {
+      "startTime": "108",
+      "eventTypeId": "8Type",
+      "removeTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p3"
+      }],
+      "addTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p4"
+      }],
+      "viaTransitionId": "st2_t3",
+      "color": {
+        "r": 113,
+        "g": 210,
+        "b": 200
+      }
+    }, {
+      "startTime": "110",
+      "eventTypeId": "7Type",
+      "removeTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p4"
+      }],
+      "addTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p3"
+      }],
+      "viaTransitionId": "st2_t4",
+      "color": {
+        "r": 164,
+        "g": 187,
+        "b": 64
+      }
+    }, {
+      "startTime": "120",
+      "eventTypeId": "8Type",
+      "removeTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p3"
+      }],
+      "addTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p4"
+      }],
+      "viaTransitionId": "st2_t3",
+      "color": {
+        "r": 113,
+        "g": 210,
+        "b": 200
+      }
+    }, {
+      "startTime": "130",
+      "eventTypeId": "7Type",
+      "removeTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p4"
+      }],
+      "addTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p3"
+      }],
+      "viaTransitionId": "st2_t4",
+      "color": {
+        "r": 164,
+        "g": 187,
+        "b": 64
+      }
+    }, {
+      "startTime": "133",
+      "eventTypeId": "8Type",
+      "removeTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p3"
+      }],
+      "addTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p4"
+      }],
+      "viaTransitionId": "st2_t3",
+      "color": {
+        "r": 113,
+        "g": 210,
+        "b": 200
+      }
+    }, {
+      "startTime": "140",
+      "eventTypeId": "7Type",
+      "removeTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p4"
+      }],
+      "addTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p3"
+      }],
+      "viaTransitionId": "st2_t4",
+      "color": {
+        "r": 164,
+        "g": 187,
+        "b": 64
+      }
+    }, {
+      "startTime": "143",
+      "eventTypeId": "9Type",
+      "removeTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p3"
+      }],
+      "addTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p5"
+      }],
+      "viaTransitionId": "st2_t5",
+      "color": {
+        "r": 241,
+        "g": 178,
+        "b": 215
+      }
+    }, {
+      "startTime": "145",
+      "eventTypeId": "10Type",
+      "removeTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p5"
+      }],
+      "addTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p3"
+      }],
+      "viaTransitionId": "st2_t6",
+      "color": {
+        "r": 184,
+        "g": 78,
+        "b": 134
+      }
+    }, {
+      "startTime": "146",
+      "eventTypeId": "8Type",
+      "removeTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p3"
+      }],
+      "addTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p4"
+      }],
+      "viaTransitionId": "st2_t3",
+      "color": {
+        "r": 113,
+        "g": 210,
+        "b": 200
+      }
+    }, {
+      "startTime": "148",
+      "eventTypeId": "7Type",
+      "removeTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p4"
+      }],
+      "addTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p3"
+      }],
+      "viaTransitionId": "st2_t4",
+      "color": {
+        "r": 164,
+        "g": 187,
+        "b": 64
+      }
+    }, {
+      "startTime": "149",
+      "eventTypeId": "8Type",
+      "removeTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p3"
+      }],
+      "addTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p4"
+      }],
+      "viaTransitionId": "st2_t3",
+      "color": {
+        "r": 113,
+        "g": 210,
+        "b": 200
+      }
+    }, {
+      "startTime": "152",
+      "eventTypeId": "7Type",
+      "removeTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p4"
+      }],
+      "addTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p3"
+      }],
+      "viaTransitionId": "st2_t4",
+      "color": {
+        "r": 164,
+        "g": 187,
+        "b": 64
+      }
+    }, {
+      "startTime": "158",
+      "eventTypeId": "9Type",
+      "removeTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p3"
+      }],
+      "addTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p5"
+      }],
+      "viaTransitionId": "st2_t5",
+      "color": {
+        "r": 241,
+        "g": 178,
+        "b": 215
+      }
+    }, {
+      "startTime": "160",
+      "eventTypeId": "10Type",
+      "removeTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p5"
+      }],
+      "addTokens": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p6"
+      }],
+      "viaTransitionId": "st2_t6",
+      "color": {
+        "r": 184,
+        "g": 78,
+        "b": 134
+      }
+    }]
+  }, {
+    "netId": "student_3",
+    "actions": [{
+      "startTime": "10",
+      "eventTypeId": "5Type",
+      "removeTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p1"
+      }],
+      "addTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p1"
+      }],
+      "viaTransitionId": "st3_t1",
+      "color": {
+        "r": 18,
+        "g": 60,
+        "b": 138
+      }
+    }, {
+      "startTime": "15",
+      "eventTypeId": "5Type",
+      "removeTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p1"
+      }],
+      "addTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p1"
+      }],
+      "viaTransitionId": "st3_t1",
+      "color": {
+        "r": 18,
+        "g": 60,
+        "b": 138
+      }
+    }, {
+      "startTime": "20",
+      "eventTypeId": "5Type",
+      "removeTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p1"
+      }],
+      "addTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p1"
+      }],
+      "viaTransitionId": "st3_t1",
+      "color": {
+        "r": 18,
+        "g": 60,
+        "b": 138
+      }
+    }, {
+      "startTime": "30",
+      "eventTypeId": "7Type",
+      "removeTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p1"
+      }],
+      "addTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p2"
+      }],
+      "viaTransitionId": "st3_t1",
+      "color": {
+        "r": 164,
+        "g": 187,
+        "b": 64
+      }
+    }, {
+      "startTime": "60",
+      "eventTypeId": "6Type",
+      "removeTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p2"
+      }],
+      "addTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p3"
+      }],
+      "viaTransitionId": "st3_t2",
+      "color": {
+        "r": 56,
+        "g": 250,
+        "b": 192
+      }
+    }, {
+      "startTime": "62",
+      "eventTypeId": "8Type",
+      "removeTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p3"
+      }],
+      "addTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p4"
+      }],
+      "viaTransitionId": "st3_t3",
+      "color": {
+        "r": 113,
+        "g": 210,
+        "b": 200
+      }
+    }, {
+      "startTime": "72",
+      "eventTypeId": "9Type",
+      "removeTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p4"
+      }],
+      "addTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p5"
+      }],
+      "viaTransitionId": "st3_t5",
+      "color": {
+        "r": 241,
+        "g": 178,
+        "b": 215
+      }
+    }, {
+      "startTime": "73",
+      "eventTypeId": "13Type",
+      "removeTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p5"
+      }],
+      "addTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p3"
+      }],
+      "viaTransitionId": "st3_t6",
+      "color": {
+        "r": 124,
+        "g": 172,
+        "b": 45
+      }
+    }, {
+      "startTime": "74",
+      "eventTypeId": "8Type",
+      "removeTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p3"
+      }],
+      "addTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p4"
+      }],
+      "viaTransitionId": "st3_t3",
+      "color": {
+        "r": 113,
+        "g": 210,
+        "b": 200
+      }
+    }, {
+      "startTime": "76",
+      "eventTypeId": "9Type",
+      "removeTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p4"
+      }],
+      "addTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p5"
+      }],
+      "viaTransitionId": "st3_t5",
+      "color": {
+        "r": 241,
+        "g": 178,
+        "b": 215
+      }
+    }, {
+      "startTime": "79",
+      "eventTypeId": "13Type",
+      "removeTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p5"
+      }],
+      "addTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p3"
+      }],
+      "viaTransitionId": "st3_t6",
+      "color": {
+        "r": 124,
+        "g": 172,
+        "b": 45
+      }
+    }, {
+      "startTime": "80",
+      "eventTypeId": "8Type",
+      "removeTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p3"
+      }],
+      "addTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p4"
+      }],
+      "viaTransitionId": "st3_t3",
+      "color": {
+        "r": 113,
+        "g": 210,
+        "b": 200
+      }
+    }, {
+      "startTime": "81",
+      "eventTypeId": "9Type",
+      "removeTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p4"
+      }],
+      "addTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p5"
+      }],
+      "viaTransitionId": "st3_t5",
+      "color": {
+        "r": 241,
+        "g": 178,
+        "b": 215
+      }
+    }, {
+      "startTime": "85",
+      "eventTypeId": "13Type",
+      "removeTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p5"
+      }],
+      "addTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p3"
+      }],
+      "viaTransitionId": "st3_t6",
+      "color": {
+        "r": 124,
+        "g": 172,
+        "b": 45
+      }
+    }, {
+      "startTime": "86",
+      "eventTypeId": "8Type",
+      "removeTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p3"
+      }],
+      "addTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p4"
+      }],
+      "viaTransitionId": "st3_t3",
+      "color": {
+        "r": 113,
+        "g": 210,
+        "b": 200
+      }
+    }, {
+      "startTime": "94",
+      "eventTypeId": "9Type",
+      "removeTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p4"
+      }],
+      "addTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p5"
+      }],
+      "viaTransitionId": "st3_t5",
+      "color": {
+        "r": 241,
+        "g": 178,
+        "b": 215
+      }
+    }, {
+      "startTime": "95",
+      "eventTypeId": "1Type",
+      "removeTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p5"
+      }],
+      "addTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p3"
+      }],
+      "viaTransitionId": "st3_t6",
+      "color": {
+        "r": 39,
+        "g": 14,
+        "b": 155
+      }
+    }, {
+      "startTime": "96",
+      "eventTypeId": "8Type",
+      "removeTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p3"
+      }],
+      "addTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p4"
+      }],
+      "viaTransitionId": "st3_t3",
+      "color": {
+        "r": 113,
+        "g": 210,
+        "b": 200
+      }
+    }, {
+      "startTime": "110",
+      "eventTypeId": "7Type",
+      "removeTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p4"
+      }],
+      "addTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p3"
+      }],
+      "viaTransitionId": "st3_t4",
+      "color": {
+        "r": 164,
+        "g": 187,
+        "b": 64
+      }
+    }, {
+      "startTime": "112",
+      "eventTypeId": "8Type",
+      "removeTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p3"
+      }],
+      "addTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p4"
+      }],
+      "viaTransitionId": "st3_t3",
+      "color": {
+        "r": 113,
+        "g": 210,
+        "b": 200
+      }
+    }, {
+      "startTime": "130",
+      "eventTypeId": "7Type",
+      "removeTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p4"
+      }],
+      "addTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p3"
+      }],
+      "viaTransitionId": "st3_t4",
+      "color": {
+        "r": 164,
+        "g": 187,
+        "b": 64
+      }
+    }, {
+      "startTime": "132",
+      "eventTypeId": "8Type",
+      "removeTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p3"
+      }],
+      "addTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p4"
+      }],
+      "viaTransitionId": "st3_t3",
+      "color": {
+        "r": 113,
+        "g": 210,
+        "b": 200
+      }
+    }, {
+      "startTime": "153",
+      "eventTypeId": "7Type",
+      "removeTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p4"
+      }],
+      "addTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p3"
+      }],
+      "viaTransitionId": "st3_t4",
+      "color": {
+        "r": 164,
+        "g": 187,
+        "b": 64
+      }
+    }, {
+      "startTime": "154",
+      "eventTypeId": "8Type",
+      "removeTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p3"
+      }],
+      "addTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p4"
+      }],
+      "viaTransitionId": "st3_t3",
+      "color": {
+        "r": 113,
+        "g": 210,
+        "b": 200
+      }
+    }, {
+      "startTime": "155",
+      "eventTypeId": "9Type",
+      "removeTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p4"
+      }],
+      "addTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p5"
+      }],
+      "viaTransitionId": "st3_t5",
+      "color": {
+        "r": 241,
+        "g": 178,
+        "b": 215
+      }
+    }, {
+      "startTime": "160",
+      "eventTypeId": "12Type",
+      "removeTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p5"
+      }],
+      "addTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p3"
+      }],
+      "viaTransitionId": "st3_t6",
+      "color": {
+        "r": 134,
+        "g": 100,
+        "b": 129
+      }
+    }, {
+      "startTime": "165",
+      "eventTypeId": "9Type",
+      "removeTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p3"
+      }],
+      "addTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p5"
+      }],
+      "viaTransitionId": "st3_t5",
+      "color": {
+        "r": 241,
+        "g": 178,
+        "b": 215
+      }
+    }, {
+      "startTime": "170",
+      "eventTypeId": "12Type",
+      "removeTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p5"
+      }],
+      "addTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p3"
+      }],
+      "viaTransitionId": "st3_t6",
+      "color": {
+        "r": 134,
+        "g": 100,
+        "b": 129
+      }
+    }, {
+      "startTime": "175",
+      "eventTypeId": "8Type",
+      "removeTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p3"
+      }],
+      "addTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p4"
+      }],
+      "viaTransitionId": "st3_t3",
+      "color": {
+        "r": 113,
+        "g": 210,
+        "b": 200
+      }
+    }, {
+      "startTime": "183",
+      "eventTypeId": "9Type",
+      "removeTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p4"
+      }],
+      "addTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p5"
+      }],
+      "viaTransitionId": "st3_t5",
+      "color": {
+        "r": 241,
+        "g": 178,
+        "b": 215
+      }
+    }, {
+      "startTime": "184",
+      "eventTypeId": "4Type",
+      "removeTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p5"
+      }],
+      "addTokens": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p6"
+      }],
+      "viaTransitionId": "st3_t6",
+      "color": {
+        "r": 105,
+        "g": 87,
+        "b": 233
+      }
+    }]
+  }, {
+    "netId": "student_1",
+    "actions": [{
+      "startTime": "5",
+      "eventTypeId": "5Type",
+      "removeTokens": [{
+        "tokenId": "st1_tn1",
+        "placeId": "st1_p1"
+      }],
+      "addTokens": [{
+        "tokenId": "st1_tn1",
+        "placeId": "st1_p1"
+      }],
+      "viaTransitionId": "st1_t1",
+      "color": {
+        "r": 18,
+        "g": 60,
+        "b": 138
+      }
+    }, {
+      "startTime": "20",
+      "eventTypeId": "5Type",
+      "removeTokens": [{
+        "tokenId": "st1_tn1",
+        "placeId": "st1_p1"
+      }],
+      "addTokens": [{
+        "tokenId": "st1_tn1",
+        "placeId": "st1_p2"
+      }],
+      "viaTransitionId": "st1_t1",
+      "color": {
+        "r": 18,
+        "g": 60,
+        "b": 138
+      }
+    }, {
+      "startTime": "25",
+      "eventTypeId": "6Type",
+      "removeTokens": [{
+        "tokenId": "st1_tn1",
+        "placeId": "st1_p2"
+      }],
+      "addTokens": [{
+        "tokenId": "st1_tn1",
+        "placeId": "st1_p3"
+      }],
+      "viaTransitionId": "st1_t2",
+      "color": {
+        "r": 56,
+        "g": 250,
+        "b": 192
+      }
+    }, {
+      "startTime": "30",
+      "eventTypeId": "8Type",
+      "removeTokens": [{
+        "tokenId": "st1_tn1",
+        "placeId": "st1_p3"
+      }],
+      "addTokens": [{
+        "tokenId": "st1_tn1",
+        "placeId": "st1_p4"
+      }],
+      "viaTransitionId": "st1_t3",
+      "color": {
+        "r": 113,
+        "g": 210,
+        "b": 200
+      }
+    }, {
+      "startTime": "35",
+      "eventTypeId": "7Type",
+      "removeTokens": [{
+        "tokenId": "st1_tn1",
+        "placeId": "st1_p4"
+      }],
+      "addTokens": [{
+        "tokenId": "st1_tn1",
+        "placeId": "st1_p3"
+      }],
+      "viaTransitionId": "st1_t4",
+      "color": {
+        "r": 164,
+        "g": 187,
+        "b": 64
+      }
+    }, {
+      "startTime": "37",
+      "eventTypeId": "8Type",
+      "removeTokens": [{
+        "tokenId": "st1_tn1",
+        "placeId": "st1_p3"
+      }],
+      "addTokens": [{
+        "tokenId": "st1_tn1",
+        "placeId": "st1_p4"
+      }],
+      "viaTransitionId": "st1_t3",
+      "color": {
+        "r": 113,
+        "g": 210,
+        "b": 200
+      }
+    }, {
+      "startTime": "39",
+      "eventTypeId": "7Type",
+      "removeTokens": [{
+        "tokenId": "st1_tn1",
+        "placeId": "st1_p4"
+      }],
+      "addTokens": [{
+        "tokenId": "st1_tn1",
+        "placeId": "st1_p3"
+      }],
+      "viaTransitionId": "st1_t4",
+      "color": {
+        "r": 164,
+        "g": 187,
+        "b": 64
+      }
+    }, {
+      "startTime": "42",
+      "eventTypeId": "8Type",
+      "removeTokens": [{
+        "tokenId": "st1_tn1",
+        "placeId": "st1_p3"
+      }],
+      "addTokens": [{
+        "tokenId": "st1_tn1",
+        "placeId": "st1_p4"
+      }],
+      "viaTransitionId": "st1_t3",
+      "color": {
+        "r": 113,
+        "g": 210,
+        "b": 200
+      }
+    }, {
+      "startTime": "44",
+      "eventTypeId": "7Type",
+      "removeTokens": [{
+        "tokenId": "st1_tn1",
+        "placeId": "st1_p4"
+      }],
+      "addTokens": [{
+        "tokenId": "st1_tn1",
+        "placeId": "st1_p3"
+      }],
+      "viaTransitionId": "st1_t4",
+      "color": {
+        "r": 164,
+        "g": 187,
+        "b": 64
+      }
+    }, {
+      "startTime": "45",
+      "eventTypeId": "8Type",
+      "removeTokens": [{
+        "tokenId": "st1_tn1",
+        "placeId": "st1_p3"
+      }],
+      "addTokens": [{
+        "tokenId": "st1_tn1",
+        "placeId": "st1_p4"
+      }],
+      "viaTransitionId": "st1_t3",
+      "color": {
+        "r": 113,
+        "g": 210,
+        "b": 200
+      }
+    }, {
+      "startTime": "48",
+      "eventTypeId": "7Type",
+      "removeTokens": [{
+        "tokenId": "st1_tn1",
+        "placeId": "st1_p4"
+      }],
+      "addTokens": [{
+        "tokenId": "st1_tn1",
+        "placeId": "st1_p3"
+      }],
+      "viaTransitionId": "st1_t4",
+      "color": {
+        "r": 164,
+        "g": 187,
+        "b": 64
+      }
+    }, {
+      "startTime": "55",
+      "eventTypeId": "8Type",
+      "removeTokens": [{
+        "tokenId": "st1_tn1",
+        "placeId": "st1_p3"
+      }],
+      "addTokens": [{
+        "tokenId": "st1_tn1",
+        "placeId": "st1_p4"
+      }],
+      "viaTransitionId": "st1_t3",
+      "color": {
+        "r": 113,
+        "g": 210,
+        "b": 200
+      }
+    }, {
+      "startTime": "56",
+      "eventTypeId": "9Type",
+      "removeTokens": [{
+        "tokenId": "st1_tn1",
+        "placeId": "st1_p4"
+      }],
+      "addTokens": [{
+        "tokenId": "st1_tn1",
+        "placeId": "st1_p5"
+      }],
+      "viaTransitionId": "st1_t5",
+      "color": {
+        "r": 241,
+        "g": 178,
+        "b": 215
+      }
+    }, {
+      "startTime": "57",
+      "eventTypeId": "1Type",
+      "removeTokens": [{
+        "tokenId": "st1_tn1",
+        "placeId": "st1_p5"
+      }],
+      "addTokens": [{
+        "tokenId": "st1_tn1",
+        "placeId": "st1_p3"
+      }],
+      "viaTransitionId": "st1_t6",
+      "color": {
+        "r": 39,
+        "g": 14,
+        "b": 155
+      }
+    }, {
+      "startTime": "58",
+      "eventTypeId": "8Type",
+      "removeTokens": [{
+        "tokenId": "st1_tn1",
+        "placeId": "st1_p3"
+      }],
+      "addTokens": [{
+        "tokenId": "st1_tn1",
+        "placeId": "st1_p4"
+      }],
+      "viaTransitionId": "st1_t3",
+      "color": {
+        "r": 113,
+        "g": 210,
+        "b": 200
+      }
+    }, {
+      "startTime": "59",
+      "eventTypeId": "7Type",
+      "removeTokens": [{
+        "tokenId": "st1_tn1",
+        "placeId": "st1_p4"
+      }],
+      "addTokens": [{
+        "tokenId": "st1_tn1",
+        "placeId": "st1_p3"
+      }],
+      "viaTransitionId": "st1_t4",
+      "color": {
+        "r": 164,
+        "g": 187,
+        "b": 64
+      }
+    }, {
+      "startTime": "60",
+      "eventTypeId": "8Type",
+      "removeTokens": [{
+        "tokenId": "st1_tn1",
+        "placeId": "st1_p3"
+      }],
+      "addTokens": [{
+        "tokenId": "st1_tn1",
+        "placeId": "st1_p4"
+      }],
+      "viaTransitionId": "st1_t3",
+      "color": {
+        "r": 113,
+        "g": 210,
+        "b": 200
+      }
+    }, {
+      "startTime": "62",
+      "eventTypeId": "7Type",
+      "removeTokens": [{
+        "tokenId": "st1_tn1",
+        "placeId": "st1_p4"
+      }],
+      "addTokens": [{
+        "tokenId": "st1_tn1",
+        "placeId": "st1_p3"
+      }],
+      "viaTransitionId": "st1_t4",
+      "color": {
+        "r": 164,
+        "g": 187,
+        "b": 64
+      }
+    }, {
+      "startTime": "65",
+      "eventTypeId": "8Type",
+      "removeTokens": [{
+        "tokenId": "st1_tn1",
+        "placeId": "st1_p3"
+      }],
+      "addTokens": [{
+        "tokenId": "st1_tn1",
+        "placeId": "st1_p4"
+      }],
+      "viaTransitionId": "st1_t3",
+      "color": {
+        "r": 113,
+        "g": 210,
+        "b": 200
+      }
+    }, {
+      "startTime": "67",
+      "eventTypeId": "7Type",
+      "removeTokens": [{
+        "tokenId": "st1_tn1",
+        "placeId": "st1_p4"
+      }],
+      "addTokens": [{
+        "tokenId": "st1_tn1",
+        "placeId": "st1_p3"
+      }],
+      "viaTransitionId": "st1_t4",
+      "color": {
+        "r": 164,
+        "g": 187,
+        "b": 64
+      }
+    }, {
+      "startTime": "70",
+      "eventTypeId": "9Type",
+      "removeTokens": [{
+        "tokenId": "st1_tn1",
+        "placeId": "st1_p3"
+      }],
+      "addTokens": [{
+        "tokenId": "st1_tn1",
+        "placeId": "st1_p5"
+      }],
+      "viaTransitionId": "st1_t5",
+      "color": {
+        "r": 241,
+        "g": 178,
+        "b": 215
+      }
+    }, {
+      "startTime": "75",
+      "eventTypeId": "1Type",
+      "removeTokens": [{
+        "tokenId": "st1_tn1",
+        "placeId": "st1_p5"
+      }],
+      "addTokens": [{
+        "tokenId": "st1_tn1",
+        "placeId": "st1_p3"
+      }],
+      "viaTransitionId": "st1_t6",
+      "color": {
+        "r": 39,
+        "g": 14,
+        "b": 155
+      }
+    }, {
+      "startTime": "82",
+      "eventTypeId": "9Type",
+      "removeTokens": [{
+        "tokenId": "st1_tn1",
+        "placeId": "st1_p3"
+      }],
+      "addTokens": [{
+        "tokenId": "st1_tn1",
+        "placeId": "st1_p5"
+      }],
+      "viaTransitionId": "st1_t5",
+      "color": {
+        "r": 241,
+        "g": 178,
+        "b": 215
+      }
+    }, {
+      "startTime": "83",
+      "eventTypeId": "10Type",
+      "removeTokens": [{
+        "tokenId": "st1_tn1",
+        "placeId": "st1_p5"
+      }],
+      "addTokens": [{
+        "tokenId": "st1_tn1",
+        "placeId": "st1_p3"
+      }],
+      "viaTransitionId": "st1_t6",
+      "color": {
+        "r": 184,
+        "g": 78,
+        "b": 134
+      }
+    }, {
+      "startTime": "86",
+      "eventTypeId": "9Type",
+      "removeTokens": [{
+        "tokenId": "st1_tn1",
+        "placeId": "st1_p3"
+      }],
+      "addTokens": [{
+        "tokenId": "st1_tn1",
+        "placeId": "st1_p5"
+      }],
+      "viaTransitionId": "st1_t5",
+      "color": {
+        "r": 241,
+        "g": 178,
+        "b": 215
+      }
+    }, {
+      "startTime": "90",
+      "eventTypeId": "10Type",
+      "removeTokens": [{
+        "tokenId": "st1_tn1",
+        "placeId": "st1_p5"
+      }],
+      "addTokens": [{
+        "tokenId": "st1_tn1",
+        "placeId": "st1_p6"
+      }],
+      "viaTransitionId": "st1_t6",
+      "color": {
+        "r": 184,
+        "g": 78,
+        "b": 134
+      }
+    }]
+  }],
+  "net": {
+    "id": "systemNet",
+    "name": "learning process",
+    "places": [{
+      "id": "pc3_7",
+      "name": "failed course",
+      "x": 1912.45,
+      "y": 327.45000000000005,
+      "width": 60.4,
+      "height": 60.4
+    }, {
+      "id": "pc4_6",
+      "name": "course passed",
+      "x": 1912.45,
+      "y": 406.45000000000005,
+      "width": 60.4,
+      "height": 60.4
+    }, {
+      "id": "pc5_5",
+      "name": "course passed",
+      "x": 1912.45,
+      "y": 801.45,
+      "width": 60.4,
+      "height": 60.4
+    }, {
+      "id": "p1",
+      "name": "olympiad",
+      "x": 90.6,
+      "y": 396.45000000000005,
+      "width": 60.4,
+      "height": 60.4
+    }, {
+      "id": "pc4_7",
+      "name": "course failed",
+      "x": 1912.45,
+      "y": 485.45000000000005,
+      "width": 60.4,
+      "height": 60.4
+    }, {
+      "id": "pc5_6",
+      "name": "course failed",
+      "x": 1912.45,
+      "y": 722.45,
+      "width": 60.4,
+      "height": 60.4
+    }, {
+      "id": "p2",
+      "name": "USM",
+      "x": 331.73,
+      "y": 357.45000000000005,
+      "width": 60.4,
+      "height": 60.4
+    }, {
+      "id": "pc4_8",
+      "name": "coursera passed",
+      "x": 1189.05,
+      "y": 413.45000000000005,
+      "width": 60.4,
+      "height": 60.4
+    }, {
+      "id": "p3",
+      "name": "start learning",
+      "x": 331.73,
+      "y": 436.45000000000005,
+      "width": 60.4,
+      "height": 60.4
+    }, {
+      "id": "p4",
+      "name": "graduated",
+      "x": 2153.55,
+      "y": 494.45000000000005,
+      "width": 60.4,
+      "height": 60.4
+    }, {
+      "id": "p5",
+      "name": "expelled",
+      "x": 2153.55,
+      "y": 415.45000000000005,
+      "width": 60.4,
+      "height": 60.4
+    }, {
+      "id": "pc1_1",
+      "name": "math",
+      "x": 651.56,
+      "y": 285.45000000000005,
+      "width": 60.4,
+      "height": 60.4
+    }, {
+      "id": "pc1_2",
+      "name": "programme learning",
+      "x": 1110.35,
+      "y": 208.45000000000005,
+      "width": 60.4,
+      "height": 60.4
+    }, {
+      "id": "pc2_1",
+      "name": "biology",
+      "x": 802.26,
+      "y": 527.45,
+      "width": 60.4,
+      "height": 60.4
+    }, {
+      "id": "pc1_3",
+      "name": "own project",
+      "x": 1430.15,
+      "y": 149.45000000000005,
+      "width": 60.4,
+      "height": 60.4
+    }, {
+      "id": "pc2_2",
+      "name": "programme learning",
+      "x": 1110.35,
+      "y": 528.45,
+      "width": 60.4,
+      "height": 60.4
+    }, {
+      "id": "pc3_1",
+      "name": "history",
+      "x": 572.86,
+      "y": 349.45000000000005,
+      "width": 60.4,
+      "height": 60.4
+    }, {
+      "id": "pc1_4",
+      "name": "exam week",
+      "x": 1671.35,
+      "y": 111.45000000000005,
+      "width": 60.4,
+      "height": 60.4
+    }, {
+      "id": "pc2_3",
+      "name": "practice",
+      "x": 1430.15,
+      "y": 625.45,
+      "width": 60.4,
+      "height": 60.4
+    }, {
+      "id": "pc3_2",
+      "name": "programme learning",
+      "x": 1189.05,
+      "y": 316.45000000000005,
+      "width": 60.4,
+      "height": 60.4
+    }, {
+      "id": "pc4_1",
+      "name": "chemistry",
+      "x": 572.86,
+      "y": 436.45000000000005,
+      "width": 60.4,
+      "height": 60.4
+    }, {
+      "id": "pc1_5",
+      "name": "course failed",
+      "x": 1912.45,
+      "y": 169.45000000000005,
+      "width": 60.4,
+      "height": 60.4
+    }, {
+      "id": "pc2_4",
+      "name": "exam week",
+      "x": 1671.35,
+      "y": 575.45,
+      "width": 60.4,
+      "height": 60.4
+    }, {
+      "id": "pc3_3",
+      "name": "practice",
+      "x": 1430.15,
+      "y": 311.45000000000005,
+      "width": 60.4,
+      "height": 60.4
+    }, {
+      "id": "pc4_2",
+      "name": "programme learning",
+      "x": 959.66,
+      "y": 471.45000000000005,
+      "width": 60.4,
+      "height": 60.4
+    }, {
+      "id": "pc5_1",
+      "name": "physics",
+      "x": 651.56,
+      "y": 563.45,
+      "width": 60.4,
+      "height": 60.4
+    }, {
+      "id": "pc1_6",
+      "name": "course passed",
+      "x": 1912.45,
+      "y": 90.45000000000005,
+      "width": 60.4,
+      "height": 60.4
+    }, {
+      "id": "pc2_5",
+      "name": "course passed",
+      "x": 1912.45,
+      "y": 564.45,
+      "width": 60.4,
+      "height": 60.4
+    }, {
+      "id": "pc3_4",
+      "name": "exam_week",
+      "x": 1671.35,
+      "y": 266.45000000000005,
+      "width": 60.4,
+      "height": 60.4
+    }, {
+      "id": "pc4_3",
+      "name": "self learning",
+      "x": 880.96,
+      "y": 413.45000000000005,
+      "width": 60.4,
+      "height": 60.4
+    }, {
+      "id": "pc5_2",
+      "name": "practice",
+      "x": 1189.05,
+      "y": 594.45,
+      "width": 60.4,
+      "height": 60.4
+    }, {
+      "id": "pc2_6",
+      "name": "course failed",
+      "x": 1912.45,
+      "y": 643.45,
+      "width": 60.4,
+      "height": 60.4
+    }, {
+      "id": "pc3_5",
+      "name": "course passed",
+      "x": 1912.45,
+      "y": 248.45000000000005,
+      "width": 60.4,
+      "height": 60.4
+    }, {
+      "id": "pc4_4",
+      "name": "practice",
+      "x": 1430.15,
+      "y": 454.45000000000005,
+      "width": 60.4,
+      "height": 60.4
+    }, {
+      "id": "pc5_3",
+      "name": "programme learning",
+      "x": 1430.15,
+      "y": 704.45,
+      "width": 60.4,
+      "height": 60.4
+    }, {
+      "id": "pc3_6",
+      "name": "external university",
+      "x": 880.96,
+      "y": 280.45000000000005,
+      "width": 60.4,
+      "height": 60.4
+    }, {
+      "id": "pc4_5",
+      "name": "exam week",
+      "x": 1671.35,
+      "y": 427.45000000000005,
+      "width": 60.4,
+      "height": 60.4
+    }, {
+      "id": "pc5_4",
+      "name": "exam week",
+      "x": 1671.35,
+      "y": 765.45,
+      "width": 60.4,
+      "height": 60.4
+    }],
+    "transitions": [{
+      "id": "tpc1_3",
+      "name": "project defense",
+      "x": 1550.75,
+      "y": 149.45000000000005,
+      "width": 54.0,
+      "height": 36.0
+    }, {
+      "id": "tpc2_2",
+      "name": "pre-exam",
+      "x": 1309.65,
+      "y": 567.45,
+      "width": 54.0,
+      "height": 36.00000000000003
+    }, {
+      "id": "tpc3_1",
+      "name": "start course",
+      "x": 726.91,
+      "y": 338.45000000000005,
+      "width": 54.0,
+      "height": 36.0
+    }, {
+      "id": "tpc1_4",
+      "name": "final exam",
+      "x": 1791.85,
+      "y": 111.45000000000005,
+      "width": 54.0,
+      "height": 36.0
+    }, {
+      "id": "tpc2_3",
+      "name": "practice defense",
+      "x": 1550.75,
+      "y": 625.45,
+      "width": 54.0,
+      "height": 36.0
+    }, {
+      "id": "tpc3_2",
+      "name": "tests",
+      "x": 1309.65,
+      "y": 316.45000000000005,
+      "width": 54.0,
+      "height": 36.0
+    }, {
+      "id": "tpc4_1",
+      "name": "start course",
+      "x": 726.91,
+      "y": 436.45000000000005,
+      "width": 54.0,
+      "height": 36.0
+    }, {
+      "id": "tpc1_1",
+      "name": "start course",
+      "x": 959.66,
+      "y": 220.45000000000005,
+      "width": 54.0,
+      "height": 36.0
+    }, {
+      "id": "tpc1_2",
+      "name": "intermediate test",
+      "x": 1309.65,
+      "y": 207.45000000000005,
+      "width": 54.0,
+      "height": 36.0
+    }, {
+      "id": "tpc2_1",
+      "name": "start course",
+      "x": 959.66,
+      "y": 527.45,
+      "width": 54.0,
+      "height": 36.0
+    }, {
+      "id": "tpc3_5",
+      "name": "external exam",
+      "x": 1035.01,
+      "y": 280.45000000000005,
+      "width": 54.0,
+      "height": 36.0
+    }, {
+      "id": "tpc4_4",
+      "name": "practice defense",
+      "x": 1550.75,
+      "y": 454.45000000000005,
+      "width": 54.0,
+      "height": 36.0
+    }, {
+      "id": "tpc5_3",
+      "name": "tests",
+      "x": 1550.75,
+      "y": 707.45,
+      "width": 54.0,
+      "height": 36.0
+    }, {
+      "id": "tpc4_5",
+      "name": "final exam",
+      "x": 1791.85,
+      "y": 427.45000000000005,
+      "width": 54.0,
+      "height": 36.0
+    }, {
+      "id": "tpc5_4",
+      "name": "final exam",
+      "x": 1791.85,
+      "y": 765.45,
+      "width": 54.0,
+      "height": 35.99999999999999
+    }, {
+      "id": "tpc2_4",
+      "name": "final exam",
+      "x": 1791.85,
+      "y": 575.45,
+      "width": 54.0,
+      "height": 36.00000000000003
+    }, {
+      "id": "tpc3_3",
+      "name": "practice defense",
+      "x": 1550.75,
+      "y": 311.45000000000005,
+      "width": 54.0,
+      "height": 36.0
+    }, {
+      "id": "tpc4_2",
+      "name": "tests",
+      "x": 1309.65,
+      "y": 454.45000000000005,
+      "width": 54.0,
+      "height": 36.0
+    }, {
+      "id": "tpc5_1",
+      "name": "start course",
+      "x": 802.26,
+      "y": 588.45,
+      "width": 54.0,
+      "height": 36.00000000000003
+    }, {
+      "id": "tpc3_4",
+      "name": "final exam",
+      "x": 1791.85,
+      "y": 266.45000000000005,
+      "width": 54.0,
+      "height": 36.0
+    }, {
+      "id": "tpc4_3",
+      "name": "coursera exams",
+      "x": 1035.01,
+      "y": 413.45000000000005,
+      "width": 54.0,
+      "height": 36.0
+    }, {
+      "id": "tpc5_2",
+      "name": "practice tests",
+      "x": 1309.65,
+      "y": 634.45,
+      "width": 54.0,
+      "height": 36.0
+    }, {
+      "id": "t1",
+      "name": "documents",
+      "x": 211.17,
+      "y": 396.45000000000005,
+      "width": 53.999999999999986,
+      "height": 36.0
+    }, {
+      "id": "t2",
+      "name": "choose course",
+      "x": 452.3,
+      "y": 436.45000000000005,
+      "width": 54.0,
+      "height": 36.0
+    }, {
+      "id": "t3",
+      "name": "finish exams",
+      "x": 2033.05,
+      "y": 455.45000000000005,
+      "width": 54.0,
+      "height": 36.0
+    }],
+    "arcs": [{
+      "id": "arc7",
+      "name": "arc7",
+      "sourceId": "t3",
+      "targetId": "p5",
+      "coordinates": [{
+        "x": 2060.05,
+        "y": 446.6700000000001
+      }, {
+        "x": 2076.15,
+        "y": 441.24000000000007
+      }, {
+        "x": 2097.05,
+        "y": 434.1700000000001
+      }, {
+        "x": 2114.95,
+        "y": 428.14000000000004
+      }, {
+        "x": 2124.55,
+        "y": 424.9100000000001
+      }]
+    }, {
+      "id": "arc6",
+      "name": "arc6",
+      "sourceId": "t3",
+      "targetId": "p4",
+      "coordinates": [{
+        "x": 2060.05,
+        "y": 464.01000000000005
+      }, {
+        "x": 2076.15,
+        "y": 469.31000000000006
+      }, {
+        "x": 2097.05,
+        "y": 476.20000000000005
+      }, {
+        "x": 2114.95,
+        "y": 482.08000000000004
+      }, {
+        "x": 2124.55,
+        "y": 485.2300000000001
+      }]
+    }, {
+      "id": "arc3",
+      "name": "arc3",
+      "sourceId": "t1",
+      "targetId": "p2",
+      "coordinates": [{
+        "x": 238.28,
+        "y": 396.01000000000005
+      }, {
+        "x": 258.6,
+        "y": 395.6700000000001
+      }, {
+        "x": 283.38,
+        "y": 395.25000000000006
+      }, {
+        "x": 290.68,
+        "y": 389.4200000000001
+      }, {
+        "x": 299.56,
+        "y": 382.3400000000001
+      }, {
+        "x": 307.61,
+        "y": 375.9100000000001
+      }]
+    }, {
+      "id": "arc2",
+      "name": "arc2",
+      "sourceId": "p2",
+      "targetId": "t1",
+      "coordinates": [{
+        "x": 302.11,
+        "y": 365.51000000000005
+      }, {
+        "x": 281.09000000000003,
+        "y": 371.43000000000006
+      }, {
+        "x": 256.16999999999996,
+        "y": 378.45000000000005
+      }, {
+        "x": 252.71,
+        "y": 379.86000000000007
+      }, {
+        "x": 247.73,
+        "y": 381.9000000000001
+      }, {
+        "x": 238.27,
+        "y": 385.7700000000001
+      }]
+    }, {
+      "id": "arc5",
+      "name": "arc5",
+      "sourceId": "p3",
+      "targetId": "t2",
+      "coordinates": [{
+        "x": 362.34,
+        "y": 436.45000000000005
+      }, {
+        "x": 378.36,
+        "y": 436.45000000000005
+      }, {
+        "x": 398.27,
+        "y": 436.45000000000005
+      }, {
+        "x": 415.19,
+        "y": 436.45000000000005
+      }, {
+        "x": 425.28,
+        "y": 436.45000000000005
+      }]
+    }, {
+      "id": "arc4",
+      "name": "arc4",
+      "sourceId": "t1",
+      "targetId": "p3",
+      "coordinates": [{
+        "x": 238.27,
+        "y": 408.7900000000001
+      }, {
+        "x": 247.74,
+        "y": 413.2700000000001
+      }, {
+        "x": 256.16999999999996,
+        "y": 417.25000000000006
+      }, {
+        "x": 274.07,
+        "y": 421.86000000000007
+      }, {
+        "x": 292.34000000000003,
+        "y": 426.56000000000006
+      }, {
+        "x": 302.11,
+        "y": 429.08000000000004
+      }]
+    }, {
+      "id": "arcpc3_17",
+      "name": "arcpc3_17",
+      "sourceId": "pc3_7",
+      "targetId": "t3",
+      "coordinates": [{
+        "x": 1933.85,
+        "y": 349.0400000000001
+      }, {
+        "x": 1955.95,
+        "y": 372.43000000000006
+      }, {
+        "x": 1988.05,
+        "y": 406.45000000000005
+      }, {
+        "x": 1998.15,
+        "y": 417.7700000000001
+      }, {
+        "x": 2008.75,
+        "y": 429.5300000000001
+      }, {
+        "x": 2015.65,
+        "y": 437.20000000000005
+      }]
+    }, {
+      "id": "arcpc3_16",
+      "name": "arcpc3_16",
+      "sourceId": "pc3_5",
+      "targetId": "t3",
+      "coordinates": [{
+        "x": 1931.25,
+        "y": 272.6400000000001
+      }, {
+        "x": 1937.35,
+        "y": 281.06000000000006
+      }, {
+        "x": 1942.85,
+        "y": 288.45000000000005
+      }, {
+        "x": 1988.05,
+        "y": 358.45000000000005
+      }, {
+        "x": 2006.55,
+        "y": 399.3400000000001
+      }, {
+        "x": 2019.55,
+        "y": 428.0200000000001
+      }, {
+        "x": 2023.75,
+        "y": 437.20000000000005
+      }]
+    }, {
+      "id": "arcpc3_15",
+      "name": "arcpc3_15",
+      "sourceId": "tpc3_3",
+      "targetId": "pc3_7",
+      "coordinates": [{
+        "x": 1577.95,
+        "y": 312.61
+      }, {
+        "x": 1640.15,
+        "y": 315.3800000000001
+      }, {
+        "x": 1797.45,
+        "y": 322.38000000000005
+      }, {
+        "x": 1871.55,
+        "y": 325.68000000000006
+      }, {
+        "x": 1881.95,
+        "y": 326.14000000000004
+      }]
+    }, {
+      "id": "arcpc3_14",
+      "name": "arcpc3_14",
+      "sourceId": "tpc3_2",
+      "targetId": "pc3_7",
+      "coordinates": [{
+        "x": 1336.65,
+        "y": 328.08000000000004
+      }, {
+        "x": 1371.55,
+        "y": 343.68000000000006
+      }, {
+        "x": 1429.15,
+        "y": 369.45000000000005
+      }, {
+        "x": 1792.85,
+        "y": 369.45000000000005
+      }, {
+        "x": 1839.45,
+        "y": 352.9600000000001
+      }, {
+        "x": 1874.25,
+        "y": 340.64000000000004
+      }, {
+        "x": 1883.65,
+        "y": 337.30000000000007
+      }]
+    }, {
+      "id": "arcpc3_13",
+      "name": "arcpc3_13",
+      "sourceId": "tpc3_5",
+      "targetId": "pc3_4",
+      "coordinates": [{
+        "x": 1062.15,
+        "y": 274.5200000000001
+      }, {
+        "x": 1071.55,
+        "y": 272.36
+      }, {
+        "x": 1080.05,
+        "y": 270.45000000000005
+      }, {
+        "x": 1188.05,
+        "y": 253.45000000000005
+      }, {
+        "x": 1551.75,
+        "y": 253.45000000000005
+      }, {
+        "x": 1596.25,
+        "y": 258.33000000000004
+      }, {
+        "x": 1630.75,
+        "y": 262.1
+      }, {
+        "x": 1641.05,
+        "y": 263.2400000000001
+      }]
+    }, {
+      "id": "arcpc3_12",
+      "name": "arcpc3_12",
+      "sourceId": "tpc3_5",
+      "targetId": "pc3_2",
+      "coordinates": [{
+        "x": 1062.15,
+        "y": 286.6400000000001
+      }, {
+        "x": 1086.15,
+        "y": 292.32000000000005
+      }, {
+        "x": 1122.05,
+        "y": 300.83000000000004
+      }, {
+        "x": 1149.45,
+        "y": 307.30000000000007
+      }, {
+        "x": 1159.45,
+        "y": 309.6700000000001
+      }]
+    }, {
+      "id": "arcpc3_11",
+      "name": "arcpc3_11",
+      "sourceId": "pc3_6",
+      "targetId": "tpc3_5",
+      "coordinates": [{
+        "x": 911.64,
+        "y": 280.45000000000005
+      }, {
+        "x": 936.25,
+        "y": 280.45000000000005
+      }, {
+        "x": 971.34,
+        "y": 280.45000000000005
+      }, {
+        "x": 997.64,
+        "y": 280.45000000000005
+      }, {
+        "x": 1007.96,
+        "y": 280.45000000000005
+      }]
+    }, {
+      "id": "arcpc3_10",
+      "name": "arcpc3_10",
+      "sourceId": "tpc3_1",
+      "targetId": "pc3_6",
+      "coordinates": [{
+        "x": 754.05,
+        "y": 328.4800000000001
+      }, {
+        "x": 778.48,
+        "y": 319.1600000000001
+      }, {
+        "x": 815.2,
+        "y": 305.1500000000001
+      }, {
+        "x": 842.7,
+        "y": 294.6600000000001
+      }, {
+        "x": 852.37,
+        "y": 290.98
+      }]
+    }, {
+      "id": "arcpc1_0",
+      "name": "arcpc1_0",
+      "sourceId": "t2",
+      "targetId": "pc1_1",
+      "coordinates": [{
+        "x": 464.4,
+        "y": 418.2800000000001
+      }, {
+        "x": 477.43,
+        "y": 396.95000000000005
+      }, {
+        "x": 497.3,
+        "y": 364.45000000000005
+      }, {
+        "x": 542.51,
+        "y": 310.45000000000005
+      }, {
+        "x": 581.08,
+        "y": 301.5300000000001
+      }, {
+        "x": 612.13,
+        "y": 294.34000000000003
+      }, {
+        "x": 621.89,
+        "y": 292.08000000000004
+      }]
+    }, {
+      "id": "arcpc1_1",
+      "name": "arcpc1_1",
+      "sourceId": "pc1_1",
+      "targetId": "tpc1_1",
+      "coordinates": [{
+        "x": 681.36,
+        "y": 279.05000000000007
+      }, {
+        "x": 736.29,
+        "y": 266.85
+      }, {
+        "x": 850.61,
+        "y": 241.45000000000005
+      }, {
+        "x": 891.26,
+        "y": 233.55000000000007
+      }, {
+        "x": 922.69,
+        "y": 227.44000000000005
+      }, {
+        "x": 932.51,
+        "y": 225.5300000000001
+      }]
+    }, {
+      "id": "arcpc1_2",
+      "name": "arcpc1_2",
+      "sourceId": "tpc1_1",
+      "targetId": "pc1_2",
+      "coordinates": [{
+        "x": 986.91,
+        "y": 218.33000000000004
+      }, {
+        "x": 1009.94,
+        "y": 216.47000000000003
+      }, {
+        "x": 1043.78,
+        "y": 213.74000000000012
+      }, {
+        "x": 1070.05,
+        "y": 211.62000000000012
+      }, {
+        "x": 1080.05,
+        "y": 210.81000000000006
+      }]
+    }, {
+      "id": "arcpc3_0",
+      "name": "arcpc3_0",
+      "sourceId": "t2",
+      "targetId": "pc3_1",
+      "coordinates": [{
+        "x": 477.86,
+        "y": 418.4200000000001
+      }, {
+        "x": 495.71,
+        "y": 405.33000000000004
+      }, {
+        "x": 520.03,
+        "y": 387.4800000000001
+      }, {
+        "x": 539.46,
+        "y": 373.2200000000001
+      }, {
+        "x": 547.73,
+        "y": 367.1600000000001
+      }]
+    }, {
+      "id": "arcpc2_2",
+      "name": "arcpc2_2",
+      "sourceId": "tpc2_1",
+      "targetId": "pc2_2",
+      "coordinates": [{
+        "x": 986.91,
+        "y": 527.6300000000001
+      }, {
+        "x": 1009.87,
+        "y": 527.7800000000001
+      }, {
+        "x": 1043.5700000000002,
+        "y": 528.01
+      }, {
+        "x": 1069.85,
+        "y": 528.1800000000001
+      }, {
+        "x": 1079.85,
+        "y": 528.25
+      }]
+    }, {
+      "id": "arcpc4_0",
+      "name": "arcpc4_0",
+      "sourceId": "t2",
+      "targetId": "pc4_1",
+      "coordinates": [{
+        "x": 479.31,
+        "y": 436.45000000000005
+      }, {
+        "x": 494.67,
+        "y": 436.45000000000005
+      }, {
+        "x": 514.4300000000001,
+        "y": 436.45000000000005
+      }, {
+        "x": 531.74,
+        "y": 436.45000000000005
+      }, {
+        "x": 542.14,
+        "y": 436.45000000000005
+      }]
+    }, {
+      "id": "arcpc2_3",
+      "name": "arcpc2_3",
+      "sourceId": "pc2_2",
+      "targetId": "tpc2_2",
+      "coordinates": [{
+        "x": 1140.45,
+        "y": 534.2
+      }, {
+        "x": 1175.55,
+        "y": 541.1400000000001
+      }, {
+        "x": 1234.45,
+        "y": 552.7900000000001
+      }, {
+        "x": 1272.45,
+        "y": 560.2900000000001
+      }, {
+        "x": 1282.55,
+        "y": 562.2900000000001
+      }]
+    }, {
+      "id": "arcpc4_1",
+      "name": "arcpc4_1",
+      "sourceId": "pc4_1",
+      "targetId": "tpc4_1",
+      "coordinates": [{
+        "x": 603.54,
+        "y": 436.45000000000005
+      }, {
+        "x": 628.15,
+        "y": 436.45000000000005
+      }, {
+        "x": 663.24,
+        "y": 436.45000000000005
+      }, {
+        "x": 689.54,
+        "y": 436.45000000000005
+      }, {
+        "x": 699.86,
+        "y": 436.45000000000005
+      }]
+    }, {
+      "id": "arcpc2_4",
+      "name": "arcpc2_4",
+      "sourceId": "tpc2_2",
+      "targetId": "pc2_3",
+      "coordinates": [{
+        "x": 1336.45,
+        "y": 585.5400000000001
+      }, {
+        "x": 1346.05,
+        "y": 592.25
+      }, {
+        "x": 1354.65,
+        "y": 598.25
+      }, {
+        "x": 1373.15,
+        "y": 605.0200000000001
+      }, {
+        "x": 1391.75,
+        "y": 611.8100000000001
+      }, {
+        "x": 1401.45,
+        "y": 615.32
+      }]
+    }, {
+      "id": "arcpc4_2",
+      "name": "arcpc4_2",
+      "sourceId": "tpc4_1",
+      "targetId": "pc4_2",
+      "coordinates": [{
+        "x": 754.02,
+        "y": 445.2300000000001
+      }, {
+        "x": 763.49,
+        "y": 448.4200000000001
+      }, {
+        "x": 771.91,
+        "y": 451.25000000000006
+      }, {
+        "x": 864.14,
+        "y": 461.2300000000001
+      }, {
+        "x": 918.97,
+        "y": 467.1600000000001
+      }, {
+        "x": 929.07,
+        "y": 468.25000000000006
+      }]
+    }, {
+      "id": "arcpc2_5",
+      "name": "arcpc2_5",
+      "sourceId": "pc2_3",
+      "targetId": "tpc2_3",
+      "coordinates": [{
+        "x": 1460.85,
+        "y": 625.45
+      }, {
+        "x": 1476.85,
+        "y": 625.45
+      }, {
+        "x": 1496.75,
+        "y": 625.45
+      }, {
+        "x": 1513.65,
+        "y": 625.45
+      }, {
+        "x": 1523.75,
+        "y": 625.45
+      }]
+    }, {
+      "id": "arcpc4_3",
+      "name": "arcpc4_3",
+      "sourceId": "tpc4_1",
+      "targetId": "pc4_3",
+      "coordinates": [{
+        "x": 754.05,
+        "y": 432.50000000000006
+      }, {
+        "x": 777.92,
+        "y": 428.89000000000004
+      }, {
+        "x": 813.53,
+        "y": 423.50000000000006
+      }, {
+        "x": 840.8,
+        "y": 419.37000000000006
+      }, {
+        "x": 850.8,
+        "y": 417.86000000000007
+      }]
+    }, {
+      "id": "arcpc2_6",
+      "name": "arcpc2_6",
+      "sourceId": "tpc2_2",
+      "targetId": "pc2_4",
+      "coordinates": [{
+        "x": 1336.75,
+        "y": 568.0300000000001
+      }, {
+        "x": 1399.05,
+        "y": 569.4200000000001
+      }, {
+        "x": 1556.35,
+        "y": 572.9100000000001
+      }, {
+        "x": 1630.45,
+        "y": 574.5600000000001
+      }, {
+        "x": 1640.75,
+        "y": 574.7900000000001
+      }]
+    }, {
+      "id": "arcpc4_4",
+      "name": "arcpc4_4",
+      "sourceId": "pc4_2",
+      "targetId": "tpc4_2",
+      "coordinates": [{
+        "x": 990.03,
+        "y": 470.01000000000005
+      }, {
+        "x": 1053.46,
+        "y": 466.9200000000001
+      }, {
+        "x": 1203.15,
+        "y": 459.6000000000001
+      }, {
+        "x": 1272.35,
+        "y": 456.2200000000001
+      }, {
+        "x": 1282.35,
+        "y": 455.7300000000001
+      }]
+    }, {
+      "id": "arcpc2_7",
+      "name": "arcpc2_7",
+      "sourceId": "tpc2_3",
+      "targetId": "pc2_4",
+      "coordinates": [{
+        "x": 1577.85,
+        "y": 615.48
+      }, {
+        "x": 1598.15,
+        "y": 607.71
+      }, {
+        "x": 1622.95,
+        "y": 598.25
+      }, {
+        "x": 1627.85,
+        "y": 595.9000000000001
+      }, {
+        "x": 1634.55,
+        "y": 592.7
+      }, {
+        "x": 1643.65,
+        "y": 588.32
+      }]
+    }, {
+      "id": "arcpc4_5",
+      "name": "arcpc4_5",
+      "sourceId": "pc4_3",
+      "targetId": "tpc4_3",
+      "coordinates": [{
+        "x": 910.33,
+        "y": 405.6600000000001
+      }, {
+        "x": 920.41,
+        "y": 402.89000000000004
+      }, {
+        "x": 929.31,
+        "y": 400.45000000000005
+      }, {
+        "x": 990.01,
+        "y": 400.45000000000005
+      }, {
+        "x": 993.3,
+        "y": 401.4200000000001
+      }, {
+        "x": 998.08,
+        "y": 402.83000000000004
+      }, {
+        "x": 1007.91,
+        "y": 405.74000000000007
+      }]
+    }, {
+      "id": "arcpc2_8",
+      "name": "arcpc2_8",
+      "sourceId": "pc2_4",
+      "targetId": "tpc2_4",
+      "coordinates": [{
+        "x": 1701.95,
+        "y": 575.45
+      }, {
+        "x": 1717.95,
+        "y": 575.45
+      }, {
+        "x": 1737.85,
+        "y": 575.45
+      }, {
+        "x": 1754.75,
+        "y": 575.45
+      }, {
+        "x": 1764.85,
+        "y": 575.45
+      }]
+    }, {
+      "id": "arcpc4_6",
+      "name": "arcpc4_6",
+      "sourceId": "tpc4_3",
+      "targetId": "pc4_3",
+      "coordinates": [{
+        "x": 1007.91,
+        "y": 418.08000000000004
+      }, {
+        "x": 998.44,
+        "y": 419.76000000000005
+      }, {
+        "x": 990.01,
+        "y": 421.25000000000006
+      }, {
+        "x": 929.31,
+        "y": 421.25000000000006
+      }, {
+        "x": 926.02,
+        "y": 420.7100000000001
+      }, {
+        "x": 921.17,
+        "y": 419.9100000000001
+      }, {
+        "x": 911.14,
+        "y": 418.26000000000005
+      }]
+    }, {
+      "id": "arcpc2_9",
+      "name": "arcpc2_9",
+      "sourceId": "tpc2_4",
+      "targetId": "pc2_5",
+      "coordinates": [{
+        "x": 1818.95,
+        "y": 573.0400000000001
+      }, {
+        "x": 1834.35,
+        "y": 571.6000000000001
+      }, {
+        "x": 1854.35,
+        "y": 569.75
+      }, {
+        "x": 1871.75,
+        "y": 568.1400000000001
+      }, {
+        "x": 1882.15,
+        "y": 567.1700000000001
+      }]
+    }, {
+      "id": "arcpc4_7",
+      "name": "arcpc4_7",
+      "sourceId": "pc4_8",
+      "targetId": "tpc4_2",
+      "coordinates": [{
+        "x": 1217.85,
+        "y": 423.06000000000006
+      }, {
+        "x": 1234.25,
+        "y": 428.7200000000001
+      }, {
+        "x": 1255.05,
+        "y": 435.94000000000005
+      }, {
+        "x": 1272.75,
+        "y": 442.0300000000001
+      }, {
+        "x": 1282.65,
+        "y": 445.4600000000001
+      }]
+    }, {
+      "id": "arcpc4_8",
+      "name": "arcpc4_8",
+      "sourceId": "tpc4_2",
+      "targetId": "pc4_4",
+      "coordinates": [{
+        "x": 1336.65,
+        "y": 454.45000000000005
+      }, {
+        "x": 1352.05,
+        "y": 454.45000000000005
+      }, {
+        "x": 1371.75,
+        "y": 454.45000000000005
+      }, {
+        "x": 1389.05,
+        "y": 454.45000000000005
+      }, {
+        "x": 1399.45,
+        "y": 454.45000000000005
+      }]
+    }, {
+      "id": "arcpc4_10",
+      "name": "arcpc4_10",
+      "sourceId": "tpc4_4",
+      "targetId": "pc4_5",
+      "coordinates": [{
+        "x": 1577.75,
+        "y": 448.5200000000001
+      }, {
+        "x": 1593.55,
+        "y": 444.94000000000005
+      }, {
+        "x": 1613.85,
+        "y": 440.31000000000006
+      }, {
+        "x": 1631.45,
+        "y": 436.30000000000007
+      }, {
+        "x": 1641.45,
+        "y": 434.0200000000001
+      }]
+    }, {
+      "id": "arcpc4_9",
+      "name": "arcpc4_9",
+      "sourceId": "pc4_4",
+      "targetId": "tpc4_4",
+      "coordinates": [{
+        "x": 1460.85,
+        "y": 454.45000000000005
+      }, {
+        "x": 1476.85,
+        "y": 454.45000000000005
+      }, {
+        "x": 1496.75,
+        "y": 454.45000000000005
+      }, {
+        "x": 1513.65,
+        "y": 454.45000000000005
+      }, {
+        "x": 1523.75,
+        "y": 454.45000000000005
+      }]
+    }, {
+      "id": "arcpc4_17",
+      "name": "arcpc4_17",
+      "sourceId": "tpc4_3",
+      "targetId": "pc4_8",
+      "coordinates": [{
+        "x": 1062.15,
+        "y": 413.45000000000005
+      }, {
+        "x": 1085.85,
+        "y": 413.45000000000005
+      }, {
+        "x": 1121.05,
+        "y": 413.45000000000005
+      }, {
+        "x": 1148.25,
+        "y": 413.45000000000005
+      }, {
+        "x": 1158.65,
+        "y": 413.45000000000005
+      }]
+    }, {
+      "id": "arc1",
+      "name": "arc1",
+      "sourceId": "p1",
+      "targetId": "t1",
+      "coordinates": [{
+        "x": 121.214,
+        "y": 396.45000000000005
+      }, {
+        "x": 137.231,
+        "y": 396.45000000000005
+      }, {
+        "x": 157.143,
+        "y": 396.45000000000005
+      }, {
+        "x": 174.06,
+        "y": 396.45000000000005
+      }, {
+        "x": 184.15,
+        "y": 396.45000000000005
+      }]
+    }, {
+      "id": "arcpc4_16",
+      "name": "arcpc4_16",
+      "sourceId": "pc4_7",
+      "targetId": "t3",
+      "coordinates": [{
+        "x": 1942.15,
+        "y": 478.19000000000005
+      }, {
+        "x": 1958.45,
+        "y": 474.07000000000005
+      }, {
+        "x": 1978.95,
+        "y": 468.88000000000005
+      }, {
+        "x": 1996.25,
+        "y": 464.50000000000006
+      }, {
+        "x": 2006.05,
+        "y": 462.0300000000001
+      }]
+    }, {
+      "id": "arcpc4_15",
+      "name": "arcpc4_15",
+      "sourceId": "pc4_6",
+      "targetId": "t3",
+      "coordinates": [{
+        "x": 1940.65,
+        "y": 417.69000000000005
+      }, {
+        "x": 1957.15,
+        "y": 424.51000000000005
+      }, {
+        "x": 1978.35,
+        "y": 433.2900000000001
+      }, {
+        "x": 1996.25,
+        "y": 440.6600000000001
+      }, {
+        "x": 2005.75,
+        "y": 444.6000000000001
+      }]
+    }, {
+      "id": "arcpc4_14",
+      "name": "arcpc4_14",
+      "sourceId": "tpc4_5",
+      "targetId": "pc4_7",
+      "coordinates": [{
+        "x": 1818.95,
+        "y": 440.18000000000006
+      }, {
+        "x": 1835.55,
+        "y": 448.30000000000007
+      }, {
+        "x": 1857.25,
+        "y": 458.94000000000005
+      }, {
+        "x": 1875.55,
+        "y": 467.86000000000007
+      }, {
+        "x": 1884.65,
+        "y": 472.3500000000001
+      }]
+    }, {
+      "id": "arcpc4_13",
+      "name": "arcpc4_13",
+      "sourceId": "tpc4_4",
+      "targetId": "pc4_7",
+      "coordinates": [{
+        "x": 1578.05,
+        "y": 457.99000000000007
+      }, {
+        "x": 1604.35,
+        "y": 461.5200000000001
+      }, {
+        "x": 1640.95,
+        "y": 466.45000000000005
+      }, {
+        "x": 1796.85,
+        "y": 477.4000000000001
+      }, {
+        "x": 1871.95,
+        "y": 482.68000000000006
+      }, {
+        "x": 1881.95,
+        "y": 483.38000000000005
+      }]
+    }, {
+      "id": "arcpc4_12",
+      "name": "arcpc4_12",
+      "sourceId": "tpc4_5",
+      "targetId": "pc4_6",
+      "coordinates": [{
+        "x": 1818.95,
+        "y": 422.8400000000001
+      }, {
+        "x": 1834.55,
+        "y": 420.08000000000004
+      }, {
+        "x": 1854.65,
+        "y": 416.50000000000006
+      }, {
+        "x": 1872.25,
+        "y": 413.4000000000001
+      }, {
+        "x": 1882.15,
+        "y": 411.64000000000004
+      }]
+    }, {
+      "id": "arcpc4_11",
+      "name": "arcpc4_11",
+      "sourceId": "pc4_5",
+      "targetId": "tpc4_5",
+      "coordinates": [{
+        "x": 1701.95,
+        "y": 427.45000000000005
+      }, {
+        "x": 1717.95,
+        "y": 427.45000000000005
+      }, {
+        "x": 1737.85,
+        "y": 427.45000000000005
+      }, {
+        "x": 1754.75,
+        "y": 427.45000000000005
+      }, {
+        "x": 1764.85,
+        "y": 427.45000000000005
+      }]
+    }, {
+      "id": "arcpc5_10",
+      "name": "arcpc5_10",
+      "sourceId": "tpc5_3",
+      "targetId": "pc5_6",
+      "coordinates": [{
+        "x": 1577.95,
+        "y": 708.5400000000001
+      }, {
+        "x": 1640.15,
+        "y": 711.1400000000001
+      }, {
+        "x": 1797.45,
+        "y": 717.69
+      }, {
+        "x": 1871.55,
+        "y": 720.7900000000001
+      }, {
+        "x": 1881.95,
+        "y": 721.22
+      }]
+    }, {
+      "id": "arcpc5_11",
+      "name": "arcpc5_11",
+      "sourceId": "tpc5_4",
+      "targetId": "pc5_6",
+      "coordinates": [{
+        "x": 1818.95,
+        "y": 756.013
+      }, {
+        "x": 1835.05,
+        "y": 750.172
+      }, {
+        "x": 1855.95,
+        "y": 742.576
+      }, {
+        "x": 1873.85,
+        "y": 736.0870000000001
+      }, {
+        "x": 1883.45,
+        "y": 732.614
+      }]
+    }, {
+      "id": "arcpc1_12",
+      "name": "arcpc1_12",
+      "sourceId": "pc1_6",
+      "targetId": "t3",
+      "coordinates": [{
+        "x": 1931.25,
+        "y": 114.6400000000001
+      }, {
+        "x": 1937.35,
+        "y": 123.06000000000006
+      }, {
+        "x": 1942.85,
+        "y": 130.45000000000005
+      }, {
+        "x": 1988.05,
+        "y": 224.45000000000005
+      }, {
+        "x": 2014.95,
+        "y": 366.01000000000005
+      }, {
+        "x": 2026.65,
+        "y": 427.50000000000006
+      }, {
+        "x": 2028.55,
+        "y": 437.32000000000005
+      }]
+    }, {
+      "id": "arcpc1_13",
+      "name": "arcpc1_13",
+      "sourceId": "pc1_5",
+      "targetId": "t3",
+      "coordinates": [{
+        "x": 1931.25,
+        "y": 193.6400000000001
+      }, {
+        "x": 1937.35,
+        "y": 202.06000000000006
+      }, {
+        "x": 1942.85,
+        "y": 209.45000000000005
+      }, {
+        "x": 1988.05,
+        "y": 296.45000000000005
+      }, {
+        "x": 2011.55,
+        "y": 381.6600000000001
+      }, {
+        "x": 2024.25,
+        "y": 427.32000000000005
+      }, {
+        "x": 2026.95,
+        "y": 437.2100000000001
+      }]
+    }, {
+      "id": "arcpc1_10",
+      "name": "arcpc1_10",
+      "sourceId": "tpc1_2",
+      "targetId": "pc1_5",
+      "coordinates": [{
+        "x": 1336.65,
+        "y": 207.45000000000005
+      }, {
+        "x": 1371.55,
+        "y": 207.45000000000005
+      }, {
+        "x": 1429.15,
+        "y": 207.45000000000005
+      }, {
+        "x": 1792.85,
+        "y": 207.45000000000005
+      }, {
+        "x": 1838.75,
+        "y": 192.74000000000012
+      }, {
+        "x": 1873.45,
+        "y": 181.62000000000012
+      }, {
+        "x": 1883.35,
+        "y": 178.46000000000004
+      }]
+    }, {
+      "id": "arcpc1_11",
+      "name": "arcpc1_11",
+      "sourceId": "tpc1_3",
+      "targetId": "pc1_5",
+      "coordinates": [{
+        "x": 1577.95,
+        "y": 150.9000000000001
+      }, {
+        "x": 1640.15,
+        "y": 154.37000000000012
+      }, {
+        "x": 1797.45,
+        "y": 163.11
+      }, {
+        "x": 1871.55,
+        "y": 167.23000000000002
+      }, {
+        "x": 1881.95,
+        "y": 167.81000000000006
+      }]
+    }, {
+      "id": "arcpc5_12",
+      "name": "arcpc5_12",
+      "sourceId": "pc5_5",
+      "targetId": "t3",
+      "coordinates": [{
+        "x": 1931.25,
+        "y": 777.259
+      }, {
+        "x": 1937.35,
+        "y": 768.835
+      }, {
+        "x": 1942.85,
+        "y": 761.45
+      }, {
+        "x": 1988.05,
+        "y": 668.25
+      }, {
+        "x": 2014.25,
+        "y": 541.3400000000001
+      }, {
+        "x": 2026.25,
+        "y": 483.5400000000001
+      }, {
+        "x": 2028.25,
+        "y": 473.5900000000001
+      }]
+    }, {
+      "id": "arcpc5_13",
+      "name": "arcpc5_13",
+      "sourceId": "pc5_6",
+      "targetId": "t3",
+      "coordinates": [{
+        "x": 1931.25,
+        "y": 698.2600000000001
+      }, {
+        "x": 1937.35,
+        "y": 689.83
+      }, {
+        "x": 1942.85,
+        "y": 682.45
+      }, {
+        "x": 1988.05,
+        "y": 598.25
+      }, {
+        "x": 2010.65,
+        "y": 524.9200000000001
+      }, {
+        "x": 2023.45,
+        "y": 483.3500000000001
+      }, {
+        "x": 2026.45,
+        "y": 473.5400000000001
+      }]
+    }, {
+      "id": "arcpc2_0",
+      "name": "arcpc2_0",
+      "sourceId": "t2",
+      "targetId": "pc2_1",
+      "coordinates": [{
+        "x": 479.58,
+        "y": 452.89000000000004
+      }, {
+        "x": 505.9,
+        "y": 469.3500000000001
+      }, {
+        "x": 542.51,
+        "y": 492.25000000000006
+      }, {
+        "x": 689.59,
+        "y": 512.26
+      }, {
+        "x": 761.97,
+        "y": 522.1000000000001
+      }, {
+        "x": 772.08,
+        "y": 523.48
+      }]
+    }, {
+      "id": "arcpc2_1",
+      "name": "arcpc2_1",
+      "sourceId": "pc2_1",
+      "targetId": "tpc2_1",
+      "coordinates": [{
+        "x": 832.86,
+        "y": 527.45
+      }, {
+        "x": 858.28,
+        "y": 527.45
+      }, {
+        "x": 895.03,
+        "y": 527.45
+      }, {
+        "x": 922.25,
+        "y": 527.45
+      }, {
+        "x": 932.54,
+        "y": 527.45
+      }]
+    }, {
+      "id": "arcpc1_3",
+      "name": "arcpc1_3",
+      "sourceId": "pc1_2",
+      "targetId": "tpc1_2",
+      "coordinates": [{
+        "x": 1140.85,
+        "y": 208.30000000000007
+      }, {
+        "x": 1175.95,
+        "y": 208.12000000000012
+      }, {
+        "x": 1234.45,
+        "y": 207.83000000000004
+      }, {
+        "x": 1272.25,
+        "y": 207.6300000000001
+      }, {
+        "x": 1282.35,
+        "y": 207.58000000000004
+      }]
+    }, {
+      "id": "arcpc3_1",
+      "name": "arcpc3_1",
+      "sourceId": "pc3_1",
+      "targetId": "tpc3_1",
+      "coordinates": [{
+        "x": 603.18,
+        "y": 347.33000000000004
+      }, {
+        "x": 627.86,
+        "y": 345.5400000000001
+      }, {
+        "x": 663.27,
+        "y": 342.9800000000001
+      }, {
+        "x": 689.72,
+        "y": 341.07000000000005
+      }, {
+        "x": 699.73,
+        "y": 340.3400000000001
+      }]
+    }, {
+      "id": "arcpc1_4",
+      "name": "arcpc1_4",
+      "sourceId": "tpc1_2",
+      "targetId": "pc1_3",
+      "coordinates": [{
+        "x": 1336.65,
+        "y": 194.72000000000003
+      }, {
+        "x": 1353.25,
+        "y": 186.60000000000002
+      }, {
+        "x": 1374.95,
+        "y": 175.96000000000004
+      }, {
+        "x": 1393.25,
+        "y": 167.04000000000008
+      }, {
+        "x": 1402.45,
+        "y": 162.55000000000007
+      }]
+    }, {
+      "id": "arcpc3_2",
+      "name": "arcpc3_2",
+      "sourceId": "tpc3_1",
+      "targetId": "pc3_2",
+      "coordinates": [{
+        "x": 753.97,
+        "y": 337.20000000000005
+      }, {
+        "x": 830.77,
+        "y": 333.5300000000001
+      }, {
+        "x": 1056.5700000000002,
+        "y": 322.74000000000007
+      }, {
+        "x": 1148.45,
+        "y": 318.34000000000003
+      }, {
+        "x": 1158.45,
+        "y": 317.86
+      }]
+    }, {
+      "id": "arcpc5_0",
+      "name": "arcpc5_0",
+      "sourceId": "t2",
+      "targetId": "pc5_1",
+      "coordinates": [{
+        "x": 461.37,
+        "y": 454.57000000000005
+      }, {
+        "x": 474.07,
+        "y": 483.0900000000001
+      }, {
+        "x": 497.3,
+        "y": 535.25
+      }, {
+        "x": 566.1,
+        "y": 547.9100000000001
+      }, {
+        "x": 611.51,
+        "y": 556.26
+      }, {
+        "x": 621.37,
+        "y": 558.08
+      }]
+    }, {
+      "id": "arcpc1_5",
+      "name": "arcpc1_5",
+      "sourceId": "pc1_3",
+      "targetId": "tpc1_3",
+      "coordinates": [{
+        "x": 1460.85,
+        "y": 149.45000000000005
+      }, {
+        "x": 1476.85,
+        "y": 149.45000000000005
+      }, {
+        "x": 1496.75,
+        "y": 149.45000000000005
+      }, {
+        "x": 1513.65,
+        "y": 149.45000000000005
+      }, {
+        "x": 1523.75,
+        "y": 149.45000000000005
+      }]
+    }, {
+      "id": "arcpc3_3",
+      "name": "arcpc3_3",
+      "sourceId": "pc3_2",
+      "targetId": "tpc3_2",
+      "coordinates": [{
+        "x": 1219.65,
+        "y": 316.45000000000005
+      }, {
+        "x": 1235.65,
+        "y": 316.45000000000005
+      }, {
+        "x": 1255.65,
+        "y": 316.45000000000005
+      }, {
+        "x": 1272.55,
+        "y": 316.45000000000005
+      }, {
+        "x": 1282.65,
+        "y": 316.45000000000005
+      }]
+    }, {
+      "id": "arcpc5_1",
+      "name": "arcpc5_1",
+      "sourceId": "pc5_1",
+      "targetId": "tpc5_1",
+      "coordinates": [{
+        "x": 681.59,
+        "y": 568.33
+      }, {
+        "x": 705.36,
+        "y": 572.33
+      }, {
+        "x": 739.12,
+        "y": 578.0
+      }, {
+        "x": 764.73,
+        "y": 582.3100000000001
+      }, {
+        "x": 774.81,
+        "y": 584.0
+      }]
+    }, {
+      "id": "arcpc1_6",
+      "name": "arcpc1_6",
+      "sourceId": "tpc1_3",
+      "targetId": "pc1_4",
+      "coordinates": [{
+        "x": 1577.75,
+        "y": 141.11
+      }, {
+        "x": 1593.85,
+        "y": 135.95000000000005
+      }, {
+        "x": 1614.85,
+        "y": 129.24000000000012
+      }, {
+        "x": 1632.75,
+        "y": 123.50000000000011
+      }, {
+        "x": 1642.25,
+        "y": 120.43000000000006
+      }]
+    }, {
+      "id": "arcpc3_4",
+      "name": "arcpc3_4",
+      "sourceId": "tpc3_2",
+      "targetId": "pc3_3",
+      "coordinates": [{
+        "x": 1336.65,
+        "y": 315.35
+      }, {
+        "x": 1352.05,
+        "y": 314.70000000000005
+      }, {
+        "x": 1371.75,
+        "y": 313.8700000000001
+      }, {
+        "x": 1389.05,
+        "y": 313.1400000000001
+      }, {
+        "x": 1399.45,
+        "y": 312.70000000000005
+      }]
+    }, {
+      "id": "arcpc5_2",
+      "name": "arcpc5_2",
+      "sourceId": "tpc5_1",
+      "targetId": "pc5_2",
+      "coordinates": [{
+        "x": 829.41,
+        "y": 588.8600000000001
+      }, {
+        "x": 895.54,
+        "y": 589.8900000000001
+      }, {
+        "x": 1069.75,
+        "y": 592.6100000000001
+      }, {
+        "x": 1148.45,
+        "y": 593.83
+      }, {
+        "x": 1158.45,
+        "y": 593.99
+      }]
+    }, {
+      "id": "arcpc1_7",
+      "name": "arcpc1_7",
+      "sourceId": "pc1_4",
+      "targetId": "tpc1_4",
+      "coordinates": [{
+        "x": 1701.95,
+        "y": 111.45000000000005
+      }, {
+        "x": 1717.95,
+        "y": 111.45000000000005
+      }, {
+        "x": 1737.85,
+        "y": 111.45000000000005
+      }, {
+        "x": 1754.75,
+        "y": 111.45000000000005
+      }, {
+        "x": 1764.85,
+        "y": 111.45000000000005
+      }]
+    }, {
+      "id": "arcpc3_5",
+      "name": "arcpc3_5",
+      "sourceId": "pc3_3",
+      "targetId": "tpc3_3",
+      "coordinates": [{
+        "x": 1460.85,
+        "y": 311.45000000000005
+      }, {
+        "x": 1476.85,
+        "y": 311.45000000000005
+      }, {
+        "x": 1496.75,
+        "y": 311.45000000000005
+      }, {
+        "x": 1513.65,
+        "y": 311.45000000000005
+      }, {
+        "x": 1523.75,
+        "y": 311.45000000000005
+      }]
+    }, {
+      "id": "arcpc5_3",
+      "name": "arcpc5_3",
+      "sourceId": "pc5_2",
+      "targetId": "tpc5_2",
+      "coordinates": [{
+        "x": 1218.25,
+        "y": 602.7700000000001
+      }, {
+        "x": 1239.35,
+        "y": 609.0
+      }, {
+        "x": 1264.65,
+        "y": 616.45
+      }, {
+        "x": 1268.05,
+        "y": 617.8600000000001
+      }, {
+        "x": 1273.05,
+        "y": 619.9000000000001
+      }, {
+        "x": 1282.55,
+        "y": 623.7700000000001
+      }]
+    }, {
+      "id": "arcpc1_8",
+      "name": "arcpc1_8",
+      "sourceId": "tpc1_4",
+      "targetId": "pc1_6",
+      "coordinates": [{
+        "x": 1818.95,
+        "y": 106.84000000000003
+      }, {
+        "x": 1834.55,
+        "y": 104.08000000000004
+      }, {
+        "x": 1854.65,
+        "y": 100.50000000000011
+      }, {
+        "x": 1872.25,
+        "y": 97.40000000000009
+      }, {
+        "x": 1882.15,
+        "y": 95.6400000000001
+      }]
+    }, {
+      "id": "arcpc3_6",
+      "name": "arcpc3_6",
+      "sourceId": "tpc3_3",
+      "targetId": "pc3_4",
+      "coordinates": [{
+        "x": 1577.75,
+        "y": 301.57000000000005
+      }, {
+        "x": 1593.95,
+        "y": 295.4200000000001
+      }, {
+        "x": 1615.15,
+        "y": 287.4000000000001
+      }, {
+        "x": 1633.15,
+        "y": 280.58000000000004
+      }, {
+        "x": 1642.75,
+        "y": 276.93000000000006
+      }]
+    }, {
+      "id": "arcpc5_4",
+      "name": "arcpc5_4",
+      "sourceId": "tpc5_2",
+      "targetId": "pc5_2",
+      "coordinates": [{
+        "x": 1282.55,
+        "y": 636.1100000000001
+      }, {
+        "x": 1273.05,
+        "y": 636.71
+      }, {
+        "x": 1264.65,
+        "y": 637.25
+      }, {
+        "x": 1237.45,
+        "y": 637.25
+      }, {
+        "x": 1229.15,
+        "y": 629.8000000000001
+      }, {
+        "x": 1219.55,
+        "y": 621.1200000000001
+      }, {
+        "x": 1212.05,
+        "y": 614.3500000000001
+      }]
+    }, {
+      "id": "arcpc1_9",
+      "name": "arcpc1_9",
+      "sourceId": "tpc1_4",
+      "targetId": "pc1_5",
+      "coordinates": [{
+        "x": 1818.95,
+        "y": 124.18000000000006
+      }, {
+        "x": 1835.55,
+        "y": 132.30000000000007
+      }, {
+        "x": 1857.25,
+        "y": 142.94000000000005
+      }, {
+        "x": 1875.55,
+        "y": 151.86
+      }, {
+        "x": 1884.65,
+        "y": 156.35000000000002
+      }]
+    }, {
+      "id": "arcpc3_7",
+      "name": "arcpc3_7",
+      "sourceId": "pc3_4",
+      "targetId": "tpc3_4",
+      "coordinates": [{
+        "x": 1701.95,
+        "y": 266.45000000000005
+      }, {
+        "x": 1717.95,
+        "y": 266.45000000000005
+      }, {
+        "x": 1737.85,
+        "y": 266.45000000000005
+      }, {
+        "x": 1754.75,
+        "y": 266.45000000000005
+      }, {
+        "x": 1764.85,
+        "y": 266.45000000000005
+      }]
+    }, {
+      "id": "arcpc5_5",
+      "name": "arcpc5_5",
+      "sourceId": "tpc5_2",
+      "targetId": "pc5_3",
+      "coordinates": [{
+        "x": 1336.65,
+        "y": 649.8100000000001
+      }, {
+        "x": 1353.75,
+        "y": 659.9100000000001
+      }, {
+        "x": 1376.35,
+        "y": 673.23
+      }, {
+        "x": 1394.85,
+        "y": 684.2
+      }, {
+        "x": 1403.65,
+        "y": 689.3600000000001
+      }]
+    }, {
+      "id": "arcpc3_8",
+      "name": "arcpc3_8",
+      "sourceId": "tpc3_4",
+      "targetId": "pc3_5",
+      "coordinates": [{
+        "x": 1818.95,
+        "y": 262.5000000000001
+      }, {
+        "x": 1834.55,
+        "y": 260.1300000000001
+      }, {
+        "x": 1854.65,
+        "y": 257.07000000000005
+      }, {
+        "x": 1872.25,
+        "y": 254.41000000000008
+      }, {
+        "x": 1882.15,
+        "y": 252.9000000000001
+      }]
+    }, {
+      "id": "arcpc5_6",
+      "name": "arcpc5_6",
+      "sourceId": "pc5_3",
+      "targetId": "tpc5_3",
+      "coordinates": [{
+        "x": 1460.85,
+        "y": 705.2
+      }, {
+        "x": 1476.85,
+        "y": 705.6
+      }, {
+        "x": 1496.75,
+        "y": 706.1100000000001
+      }, {
+        "x": 1513.65,
+        "y": 706.5400000000001
+      }, {
+        "x": 1523.75,
+        "y": 706.7900000000001
+      }]
+    }, {
+      "id": "arcpc3_9",
+      "name": "arcpc3_9",
+      "sourceId": "tpc3_4",
+      "targetId": "pc3_7",
+      "coordinates": [{
+        "x": 1818.95,
+        "y": 279.84000000000003
+      }, {
+        "x": 1835.75,
+        "y": 288.48
+      }, {
+        "x": 1857.75,
+        "y": 299.83000000000004
+      }, {
+        "x": 1876.15,
+        "y": 309.2800000000001
+      }, {
+        "x": 1885.05,
+        "y": 313.8800000000001
+      }]
+    }, {
+      "id": "arcpc5_7",
+      "name": "arcpc5_7",
+      "sourceId": "tpc5_3",
+      "targetId": "pc5_4",
+      "coordinates": [{
+        "x": 1577.65,
+        "y": 725.5400000000001
+      }, {
+        "x": 1587.15,
+        "y": 732.249
+      }, {
+        "x": 1595.75,
+        "y": 738.2500000000001
+      }, {
+        "x": 1614.35,
+        "y": 745.0210000000001
+      }, {
+        "x": 1632.95,
+        "y": 751.807
+      }, {
+        "x": 1642.55,
+        "y": 755.321
+      }]
+    }, {
+      "id": "arcpc5_8",
+      "name": "arcpc5_8",
+      "sourceId": "pc5_4",
+      "targetId": "tpc5_4",
+      "coordinates": [{
+        "x": 1701.95,
+        "y": 765.45
+      }, {
+        "x": 1717.95,
+        "y": 765.45
+      }, {
+        "x": 1737.85,
+        "y": 765.45
+      }, {
+        "x": 1754.75,
+        "y": 765.45
+      }, {
+        "x": 1764.85,
+        "y": 765.45
+      }]
+    }, {
+      "id": "arcpc5_9",
+      "name": "arcpc5_9",
+      "sourceId": "tpc5_4",
+      "targetId": "pc5_5",
+      "coordinates": [{
+        "x": 1815.65,
+        "y": 783.461
+      }, {
+        "x": 1826.35,
+        "y": 791.9530000000001
+      }, {
+        "x": 1836.85,
+        "y": 800.2500000000001
+      }, {
+        "x": 1853.85,
+        "y": 800.522
+      }, {
+        "x": 1871.55,
+        "y": 800.8080000000001
+      }, {
+        "x": 1881.95,
+        "y": 800.975
+      }]
+    }, {
+      "id": "arcpc2_13",
+      "name": "arcpc2_13",
+      "sourceId": "pc2_6",
+      "targetId": "t3",
+      "coordinates": [{
+        "x": 1931.25,
+        "y": 619.2600000000001
+      }, {
+        "x": 1937.35,
+        "y": 610.83
+      }, {
+        "x": 1942.85,
+        "y": 603.45
+      }, {
+        "x": 1988.05,
+        "y": 540.25
+      }, {
+        "x": 2004.95,
+        "y": 507.6500000000001
+      }, {
+        "x": 2017.75,
+        "y": 482.88000000000005
+      }, {
+        "x": 2022.45,
+        "y": 473.8500000000001
+      }]
+    }, {
+      "id": "arcpc2_11",
+      "name": "arcpc2_11",
+      "sourceId": "tpc2_4",
+      "targetId": "pc2_6",
+      "coordinates": [{
+        "x": 1818.95,
+        "y": 590.3700000000001
+      }, {
+        "x": 1835.85,
+        "y": 600.1200000000001
+      }, {
+        "x": 1858.25,
+        "y": 612.95
+      }, {
+        "x": 1876.75,
+        "y": 623.5600000000001
+      }, {
+        "x": 1885.45,
+        "y": 628.5600000000001
+      }]
+    }, {
+      "id": "arcpc2_12",
+      "name": "arcpc2_12",
+      "sourceId": "pc2_5",
+      "targetId": "t3",
+      "coordinates": [{
+        "x": 1935.45,
+        "y": 544.2
+      }, {
+        "x": 1955.05,
+        "y": 526.22
+      }, {
+        "x": 1983.75,
+        "y": 499.86000000000007
+      }, {
+        "x": 2004.75,
+        "y": 480.5400000000001
+      }, {
+        "x": 2012.05,
+        "y": 473.7700000000001
+      }]
+    }, {
+      "id": "arcpc2_10",
+      "name": "arcpc2_10",
+      "sourceId": "tpc2_3",
+      "targetId": "pc2_6",
+      "coordinates": [{
+        "x": 1577.95,
+        "y": 626.7600000000001
+      }, {
+        "x": 1640.15,
+        "y": 629.8700000000001
+      }, {
+        "x": 1797.45,
+        "y": 637.74
+      }, {
+        "x": 1871.55,
+        "y": 641.45
+      }, {
+        "x": 1881.95,
+        "y": 641.97
+      }]
+    }],
+    "tokens": [{
+      "id": "tn2_4_1",
+      "name": "tokenName tn2_4_1",
+      "agentNet": "student_2",
+      "color": {
+        "r": 0,
+        "g": 166,
+        "b": 45
+      }
+    }, {
+      "id": "tn2_4_2",
+      "name": "tokenName tn2_4_2",
+      "agentNet": "student_2",
+      "color": {
+        "r": 0,
+        "g": 166,
+        "b": 45
+      }
+    }, {
+      "id": "tn1",
+      "name": "tokenName tn1",
+      "agentNet": "student_1",
+      "color": {
+        "r": 255,
+        "g": 0,
+        "b": 0
+      }
+    }, {
+      "id": "tn1_4_1",
+      "name": "tokenName tn1_4",
+      "agentNet": "student_1",
+      "color": {
+        "r": 255,
+        "g": 0,
+        "b": 0
+      }
+    }, {
+      "id": "tn2_4",
+      "name": "tokenName tn2_4",
+      "agentNet": "student_2",
+      "color": {
+        "r": 0,
+        "g": 166,
+        "b": 45
+      }
+    }, {
+      "id": "tn3",
+      "name": "tokenName tn3",
+      "agentNet": "student_3",
+      "color": {
+        "r": 33,
+        "g": 48,
+        "b": 255
+      }
+    }, {
+      "id": "tn3_3",
+      "name": "tokenName tn3_3",
+      "agentNet": "student_3",
+      "color": {
+        "r": 33,
+        "g": 48,
+        "b": 255
+      }
+    }, {
+      "id": "tn1_4",
+      "name": "tokenName tn1_4",
+      "agentNet": "student_1",
+      "color": {
+        "r": 255,
+        "g": 0,
+        "b": 0
+      }
+    }, {
+      "id": "tn1_4_2",
+      "name": "tokenName tn1_4",
+      "agentNet": "student_1",
+      "color": {
+        "r": 255,
+        "g": 0,
+        "b": 0
+      }
+    }, {
+      "id": "tn2",
+      "name": "tokenName tn2",
+      "agentNet": "student_2",
+      "color": {
+        "r": 0,
+        "g": 166,
+        "b": 45
+      }
+    }, {
+      "id": "tn3_5",
+      "name": "tokenName tn3_5",
+      "agentNet": "student_3",
+      "color": {
+        "r": 33,
+        "g": 48,
+        "b": 255
+      }
+    }, {
+      "id": "tn2_5",
+      "name": "tokenName tn2_5",
+      "agentNet": "student_2",
+      "color": {
+        "r": 0,
+        "g": 166,
+        "b": 45
+      }
+    }, {
+      "id": "tn1_3",
+      "name": "tokenName tn1_3",
+      "agentNet": "student_1",
+      "color": {
+        "r": 255,
+        "g": 0,
+        "b": 0
+      }
+    }, {
+      "id": "tn2_2",
+      "name": "tokenName tn2_2",
+      "agentNet": "student_2",
+      "color": {
+        "r": 0,
+        "g": 166,
+        "b": 45
+      }
+    }, {
+      "id": "tn3_1",
+      "name": "tokenName tn3_1",
+      "agentNet": "student_3",
+      "color": {
+        "r": 33,
+        "g": 48,
+        "b": 255
+      }
+    }],
+    "initialMarking": [{
+      "tokenId": "tn1",
+      "placeId": "p1"
+    }, {
+      "tokenId": "tn3",
+      "placeId": "p2"
+    }, {
+      "tokenId": "tn2",
+      "placeId": "p2"
+    }],
+    "positionX": 2244.15,
+    "positionY": 892.2,
+    "agentNets": [{
+      "id": "student_2",
+      "name": "student_2",
+      "places": [{
+        "id": "st2_p1",
+        "name": "entry exams",
+        "x": 84.19999999999999,
+        "y": 111.85,
+        "width": 60.4,
+        "height": 60.4
+      }, {
+        "id": "st2_p2",
+        "name": "study course info",
+        "x": 325.33,
+        "y": 111.85,
+        "width": 60.4,
+        "height": 60.4
+      }, {
+        "id": "st2_p3",
+        "name": "learning",
+        "x": 566.46,
+        "y": 111.85,
+        "width": 60.4,
+        "height": 60.4
+      }, {
+        "id": "st2_p4",
+        "name": "sleeping",
+        "x": 807.59,
+        "y": 74.85,
+        "width": 60.4,
+        "height": 60.4
+      }, {
+        "id": "st2_p5",
+        "name": "exam",
+        "x": 1048.72,
+        "y": 86.85,
+        "width": 60.4,
+        "height": 60.4
+      }, {
+        "id": "st2_p6",
+        "name": "stop learning",
+        "x": 1289.85,
+        "y": 154.85,
+        "width": 60.4,
+        "height": 60.4
+      }],
+      "transitions": [{
+        "id": "st2_t1",
+        "name": "passing exams",
+        "x": 204.76999999999998,
+        "y": 111.85,
+        "width": 53.999999999999986,
+        "height": 35.99999999999999
+      }, {
+        "id": "st2_t2",
+        "name": "choose courses",
+        "x": 445.9,
+        "y": 111.85,
+        "width": 54.0,
+        "height": 35.99999999999999
+      }, {
+        "id": "st2_t3",
+        "name": "go to bed",
+        "x": 687.03,
+        "y": 83.85,
+        "width": 54.0,
+        "height": 36.0
+      }, {
+        "id": "st2_t4",
+        "name": "go to library",
+        "x": 928.16,
+        "y": 118.85,
+        "width": 54.0,
+        "height": 35.99999999999999
+      }, {
+        "id": "st2_t5",
+        "name": "go to exam",
+        "x": 928.16,
+        "y": 59.849999999999994,
+        "width": 54.0,
+        "height": 36.0
+      }, {
+        "id": "st2_t6",
+        "name": "finish exam",
+        "x": 1169.25,
+        "y": 154.85,
+        "width": 54.0,
+        "height": 36.0
+      }],
+      "arcs": [{
+        "id": "st2_arc8",
+        "name": "st2_arc8",
+        "sourceId": "st2_p4",
+        "targetId": "st2_t4",
+        "coordinates": [{
+          "x": 836.39,
+          "y": 85.16999999999999
+        }, {
+          "x": 852.91,
+          "y": 91.29499999999999
+        }, {
+          "x": 874.02,
+          "y": 99.12899999999999
+        }, {
+          "x": 891.72,
+          "y": 105.69999999999999
+        }, {
+          "x": 901.16,
+          "y": 109.201
+        }]
+      }, {
+        "id": "st2_arc13",
+        "name": "st2_arc13",
+        "sourceId": "st2_p5",
+        "targetId": "st2_t6",
+        "coordinates": [{
+          "x": 1075.45,
+          "y": 101.60499999999999
+        }, {
+          "x": 1092.4499999999998,
+          "y": 111.33899999999998
+        }, {
+          "x": 1114.85,
+          "y": 124.213
+        }, {
+          "x": 1133.4499999999998,
+          "y": 134.863
+        }, {
+          "x": 1142.1499999999999,
+          "y": 139.88899999999998
+        }]
+      }, {
+        "id": "st2_arc9",
+        "name": "st2_arc9",
+        "sourceId": "st2_t4",
+        "targetId": "st2_p3",
+        "coordinates": [{
+          "x": 900.77,
+          "y": 118.33599999999998
+        }, {
+          "x": 838.32,
+          "y": 117.121
+        }, {
+          "x": 681.2,
+          "y": 114.06299999999999
+        }, {
+          "x": 607.19,
+          "y": 112.62299999999999
+        }, {
+          "x": 596.9,
+          "y": 112.42199999999998
+        }]
+      }, {
+        "id": "st2_arc14",
+        "name": "st2_arc14",
+        "sourceId": "st2_t6",
+        "targetId": "st2_p3",
+        "coordinates": [{
+          "x": 1142.25,
+          "y": 158.361
+        }, {
+          "x": 1107.35,
+          "y": 163.07099999999997
+        }, {
+          "x": 1049.72,
+          "y": 170.85
+        }, {
+          "x": 686.03,
+          "y": 170.85
+        }, {
+          "x": 637.99,
+          "y": 146.94799999999998
+        }, {
+          "x": 603.07,
+          "y": 129.571
+        }, {
+          "x": 594.07,
+          "y": 125.08999999999999
+        }]
+      }, {
+        "id": "st2_arc11",
+        "name": "st2_arc11",
+        "sourceId": "st2_p3",
+        "targetId": "st2_t5",
+        "coordinates": [{
+          "x": 590.3000000000001,
+          "y": 93.03499999999998
+        }, {
+          "x": 602.41,
+          "y": 83.05999999999999
+        }, {
+          "x": 614.8100000000001,
+          "y": 72.85
+        }, {
+          "x": 660.03,
+          "y": 56.849999999999994
+        }, {
+          "x": 777.24,
+          "y": 35.849999999999994
+        }, {
+          "x": 837.94,
+          "y": 35.849999999999994
+        }, {
+          "x": 883.16,
+          "y": 44.849999999999994
+        }, {
+          "x": 886.45,
+          "y": 45.97
+        }, {
+          "x": 891.23,
+          "y": 47.599999999999994
+        }, {
+          "x": 901.0500000000001,
+          "y": 50.94999999999999
+        }]
+      }, {
+        "id": "st2_arc12",
+        "name": "st2_arc12",
+        "sourceId": "st2_t5",
+        "targetId": "st2_p5",
+        "coordinates": [{
+          "x": 955.1700000000001,
+          "y": 65.76999999999998
+        }, {
+          "x": 970.9,
+          "y": 69.35999999999999
+        }, {
+          "x": 991.25,
+          "y": 73.99
+        }, {
+          "x": 1008.86,
+          "y": 77.99999999999999
+        }, {
+          "x": 1018.85,
+          "y": 80.27999999999999
+        }]
+      }, {
+        "id": "st2_arc4",
+        "name": "st2_arc4",
+        "sourceId": "st2_p2",
+        "targetId": "st2_t2",
+        "coordinates": [{
+          "x": 355.93999999999994,
+          "y": 111.85
+        }, {
+          "x": 371.96,
+          "y": 111.85
+        }, {
+          "x": 391.86999999999995,
+          "y": 111.85
+        }, {
+          "x": 408.78999999999996,
+          "y": 111.85
+        }, {
+          "x": 418.87999999999994,
+          "y": 111.85
+        }]
+      }, {
+        "id": "st2_arc5",
+        "name": "st2_arc5",
+        "sourceId": "st2_t2",
+        "targetId": "st2_p3",
+        "coordinates": [{
+          "x": 472.90999999999997,
+          "y": 111.85
+        }, {
+          "x": 488.27,
+          "y": 111.85
+        }, {
+          "x": 508.03,
+          "y": 111.85
+        }, {
+          "x": 525.34,
+          "y": 111.85
+        }, {
+          "x": 535.74,
+          "y": 111.85
+        }]
+      }, {
+        "id": "st2_arc10",
+        "name": "st2_arc10",
+        "sourceId": "st2_p4",
+        "targetId": "st2_t5",
+        "coordinates": [{
+          "x": 837.9,
+          "y": 71.13999999999999
+        }, {
+          "x": 853.91,
+          "y": 69.11999999999999
+        }, {
+          "x": 873.89,
+          "y": 66.58999999999999
+        }, {
+          "x": 890.88,
+          "y": 64.43999999999998
+        }, {
+          "x": 901.01,
+          "y": 63.15999999999998
+        }]
+      }, {
+        "id": "st2_arc6",
+        "name": "st2_arc6",
+        "sourceId": "st2_p3",
+        "targetId": "st2_t3",
+        "coordinates": [{
+          "x": 596.16,
+          "y": 105.07199999999999
+        }, {
+          "x": 612.4300000000001,
+          "y": 101.22899999999998
+        }, {
+          "x": 632.9300000000001,
+          "y": 96.38699999999999
+        }, {
+          "x": 650.25,
+          "y": 92.29899999999999
+        }, {
+          "x": 660.01,
+          "y": 89.99199999999999
+        }]
+      }, {
+        "id": "st2_arc7",
+        "name": "st2_arc7",
+        "sourceId": "st2_t3",
+        "targetId": "st2_p4",
+        "coordinates": [{
+          "x": 714.0400000000001,
+          "y": 81.86999999999999
+        }, {
+          "x": 729.51,
+          "y": 80.69999999999999
+        }, {
+          "x": 749.45,
+          "y": 79.18999999999998
+        }, {
+          "x": 766.85,
+          "y": 77.86999999999999
+        }, {
+          "x": 777.3000000000001,
+          "y": 77.07
+        }]
+      }, {
+        "id": "st2_arc15",
+        "name": "st2_arc15",
+        "sourceId": "st2_t6",
+        "targetId": "st2_p6",
+        "coordinates": [{
+          "x": 1196.35,
+          "y": 154.85
+        }, {
+          "x": 1211.6499999999999,
+          "y": 154.85
+        }, {
+          "x": 1231.4499999999998,
+          "y": 154.85
+        }, {
+          "x": 1248.75,
+          "y": 154.85
+        }, {
+          "x": 1259.1499999999999,
+          "y": 154.85
+        }]
+      }, {
+        "id": "st2_arc1",
+        "name": "st2_arc1",
+        "sourceId": "st2_p1",
+        "targetId": "st2_t1",
+        "coordinates": [{
+          "x": 114.81399999999998,
+          "y": 111.85
+        }, {
+          "x": 130.83099999999996,
+          "y": 111.85
+        }, {
+          "x": 150.743,
+          "y": 111.85
+        }, {
+          "x": 167.65999999999997,
+          "y": 111.85
+        }, {
+          "x": 177.75,
+          "y": 111.85
+        }]
+      }, {
+        "id": "st2_arc2",
+        "name": "st2_arc2",
+        "sourceId": "st2_t1",
+        "targetId": "st2_p1",
+        "coordinates": [{
+          "x": 177.65999999999997,
+          "y": 124.189
+        }, {
+          "x": 168.19,
+          "y": 128.668
+        }, {
+          "x": 159.76999999999998,
+          "y": 132.64999999999998
+        }, {
+          "x": 132.551,
+          "y": 132.64999999999998
+        }, {
+          "x": 127.95599999999997,
+          "y": 130.63099999999997
+        }, {
+          "x": 121.62799999999999,
+          "y": 127.85199999999999
+        }, {
+          "x": 112.19499999999998,
+          "y": 123.708
+        }]
+      }, {
+        "id": "st2_arc3",
+        "name": "st2_arc3",
+        "sourceId": "st2_t1",
+        "targetId": "st2_p2",
+        "coordinates": [{
+          "x": 231.77999999999997,
+          "y": 111.85
+        }, {
+          "x": 247.14,
+          "y": 111.85
+        }, {
+          "x": 266.9,
+          "y": 111.85
+        }, {
+          "x": 284.21,
+          "y": 111.85
+        }, {
+          "x": 294.60999999999996,
+          "y": 111.85
+        }]
+      }],
+      "tokens": [{
+        "id": "st2_tn1",
+        "name": "st2_tn1",
+        "agentNet": ""
+      }],
+      "initialMarking": [{
+        "tokenId": "st2_tn1",
+        "placeId": "st2_p1"
+      }],
+      "positionX": 1374.05,
+      "positionY": 221.2
+    }, {
+      "id": "student_3",
+      "name": "student_3",
+      "places": [{
+        "id": "st3_p1",
+        "name": "entry exams",
+        "x": 84.19999999999999,
+        "y": 111.85,
+        "width": 60.4,
+        "height": 60.4
+      }, {
+        "id": "st3_p2",
+        "name": "study course info",
+        "x": 325.33,
+        "y": 111.85,
+        "width": 60.4,
+        "height": 60.4
+      }, {
+        "id": "st3_p3",
+        "name": "learning",
+        "x": 566.46,
+        "y": 111.85,
+        "width": 60.4,
+        "height": 60.4
+      }, {
+        "id": "st3_p4",
+        "name": "sleeping",
+        "x": 807.59,
+        "y": 74.85,
+        "width": 60.4,
+        "height": 60.4
+      }, {
+        "id": "st3_p5",
+        "name": "exam",
+        "x": 1048.72,
+        "y": 86.85,
+        "width": 60.4,
+        "height": 60.4
+      }, {
+        "id": "st3_p6",
+        "name": "stop learning",
+        "x": 1289.85,
+        "y": 154.85,
+        "width": 60.4,
+        "height": 60.4
+      }],
+      "transitions": [{
+        "id": "st3_t1",
+        "name": "passing exams",
+        "x": 204.76999999999998,
+        "y": 111.85,
+        "width": 53.999999999999986,
+        "height": 35.99999999999999
+      }, {
+        "id": "st3_t2",
+        "name": "choose courses",
+        "x": 445.9,
+        "y": 111.85,
+        "width": 54.0,
+        "height": 35.99999999999999
+      }, {
+        "id": "st3_t3",
+        "name": "go to bed",
+        "x": 687.03,
+        "y": 83.85,
+        "width": 54.0,
+        "height": 36.0
+      }, {
+        "id": "st3_t4",
+        "name": "go to library",
+        "x": 928.16,
+        "y": 118.85,
+        "width": 54.0,
+        "height": 35.99999999999999
+      }, {
+        "id": "st3_t5",
+        "name": "go to exam",
+        "x": 928.16,
+        "y": 59.849999999999994,
+        "width": 54.0,
+        "height": 36.0
+      }, {
+        "id": "st3_t6",
+        "name": "finish exam",
+        "x": 1169.25,
+        "y": 154.85,
+        "width": 54.0,
+        "height": 36.0
+      }],
+      "arcs": [{
+        "id": "st3_arc2",
+        "name": "st3_arc2",
+        "sourceId": "st3_t1",
+        "targetId": "st3_p1",
+        "coordinates": [{
+          "x": 177.65999999999997,
+          "y": 124.189
+        }, {
+          "x": 168.19,
+          "y": 128.668
+        }, {
+          "x": 159.76999999999998,
+          "y": 132.64999999999998
+        }, {
+          "x": 132.551,
+          "y": 132.64999999999998
+        }, {
+          "x": 127.95599999999997,
+          "y": 130.63099999999997
+        }, {
+          "x": 121.62799999999999,
+          "y": 127.85199999999999
+        }, {
+          "x": 112.19499999999998,
+          "y": 123.708
+        }]
+      }, {
+        "id": "st3_arc14",
+        "name": "st3_arc14",
+        "sourceId": "st3_t6",
+        "targetId": "st3_p3",
+        "coordinates": [{
+          "x": 1142.25,
+          "y": 158.361
+        }, {
+          "x": 1107.35,
+          "y": 163.07099999999997
+        }, {
+          "x": 1049.72,
+          "y": 170.85
+        }, {
+          "x": 686.03,
+          "y": 170.85
+        }, {
+          "x": 637.99,
+          "y": 146.94799999999998
+        }, {
+          "x": 603.07,
+          "y": 129.571
+        }, {
+          "x": 594.07,
+          "y": 125.08999999999999
+        }]
+      }, {
+        "id": "st3_arc1",
+        "name": "st3_arc1",
+        "sourceId": "st3_p1",
+        "targetId": "st3_t1",
+        "coordinates": [{
+          "x": 114.81399999999998,
+          "y": 111.85
+        }, {
+          "x": 130.83099999999996,
+          "y": 111.85
+        }, {
+          "x": 150.743,
+          "y": 111.85
+        }, {
+          "x": 167.65999999999997,
+          "y": 111.85
+        }, {
+          "x": 177.75,
+          "y": 111.85
+        }]
+      }, {
+        "id": "st3_arc15",
+        "name": "st3_arc15",
+        "sourceId": "st3_t6",
+        "targetId": "st3_p6",
+        "coordinates": [{
+          "x": 1196.35,
+          "y": 154.85
+        }, {
+          "x": 1211.6499999999999,
+          "y": 154.85
+        }, {
+          "x": 1231.4499999999998,
+          "y": 154.85
+        }, {
+          "x": 1248.75,
+          "y": 154.85
+        }, {
+          "x": 1259.1499999999999,
+          "y": 154.85
+        }]
+      }, {
+        "id": "st3_arc4",
+        "name": "st3_arc4",
+        "sourceId": "st3_p2",
+        "targetId": "st3_t2",
+        "coordinates": [{
+          "x": 355.93999999999994,
+          "y": 111.85
+        }, {
+          "x": 371.96,
+          "y": 111.85
+        }, {
+          "x": 391.86999999999995,
+          "y": 111.85
+        }, {
+          "x": 408.78999999999996,
+          "y": 111.85
+        }, {
+          "x": 418.87999999999994,
+          "y": 111.85
+        }]
+      }, {
+        "id": "st3_arc3",
+        "name": "st3_arc3",
+        "sourceId": "st3_t1",
+        "targetId": "st3_p2",
+        "coordinates": [{
+          "x": 231.77999999999997,
+          "y": 111.85
+        }, {
+          "x": 247.14,
+          "y": 111.85
+        }, {
+          "x": 266.9,
+          "y": 111.85
+        }, {
+          "x": 284.21,
+          "y": 111.85
+        }, {
+          "x": 294.60999999999996,
+          "y": 111.85
+        }]
+      }, {
+        "id": "st3_arc10",
+        "name": "st3_arc10",
+        "sourceId": "st3_p4",
+        "targetId": "st3_t5",
+        "coordinates": [{
+          "x": 837.9,
+          "y": 71.13999999999999
+        }, {
+          "x": 853.91,
+          "y": 69.11999999999999
+        }, {
+          "x": 873.89,
+          "y": 66.58999999999999
+        }, {
+          "x": 890.88,
+          "y": 64.43999999999998
+        }, {
+          "x": 901.01,
+          "y": 63.15999999999998
+        }]
+      }, {
+        "id": "st3_arc11",
+        "name": "st3_arc11",
+        "sourceId": "st3_p3",
+        "targetId": "st3_t5",
+        "coordinates": [{
+          "x": 590.3000000000001,
+          "y": 93.03499999999998
+        }, {
+          "x": 602.41,
+          "y": 83.05999999999999
+        }, {
+          "x": 614.8100000000001,
+          "y": 72.85
+        }, {
+          "x": 660.03,
+          "y": 56.849999999999994
+        }, {
+          "x": 777.24,
+          "y": 35.849999999999994
+        }, {
+          "x": 837.94,
+          "y": 35.849999999999994
+        }, {
+          "x": 883.16,
+          "y": 44.849999999999994
+        }, {
+          "x": 886.45,
+          "y": 45.97
+        }, {
+          "x": 891.23,
+          "y": 47.599999999999994
+        }, {
+          "x": 901.0500000000001,
+          "y": 50.94999999999999
+        }]
+      }, {
+        "id": "st3_arc12",
+        "name": "st3_arc12",
+        "sourceId": "st3_t5",
+        "targetId": "st3_p5",
+        "coordinates": [{
+          "x": 955.1700000000001,
+          "y": 65.76999999999998
+        }, {
+          "x": 970.9,
+          "y": 69.35999999999999
+        }, {
+          "x": 991.25,
+          "y": 73.99
+        }, {
+          "x": 1008.86,
+          "y": 77.99999999999999
+        }, {
+          "x": 1018.85,
+          "y": 80.27999999999999
+        }]
+      }, {
+        "id": "st3_arc13",
+        "name": "st3_arc13",
+        "sourceId": "st3_p5",
+        "targetId": "st3_t6",
+        "coordinates": [{
+          "x": 1075.45,
+          "y": 101.60499999999999
+        }, {
+          "x": 1092.4499999999998,
+          "y": 111.33899999999998
+        }, {
+          "x": 1114.85,
+          "y": 124.213
+        }, {
+          "x": 1133.4499999999998,
+          "y": 134.863
+        }, {
+          "x": 1142.1499999999999,
+          "y": 139.88899999999998
+        }]
+      }, {
+        "id": "st3_arc6",
+        "name": "st3_arc6",
+        "sourceId": "st3_p3",
+        "targetId": "st3_t3",
+        "coordinates": [{
+          "x": 596.16,
+          "y": 105.07199999999999
+        }, {
+          "x": 612.4300000000001,
+          "y": 101.22899999999998
+        }, {
+          "x": 632.9300000000001,
+          "y": 96.38699999999999
+        }, {
+          "x": 650.25,
+          "y": 92.29899999999999
+        }, {
+          "x": 660.01,
+          "y": 89.99199999999999
+        }]
+      }, {
+        "id": "st3_arc5",
+        "name": "st3_arc5",
+        "sourceId": "st3_t2",
+        "targetId": "st3_p3",
+        "coordinates": [{
+          "x": 472.90999999999997,
+          "y": 111.85
+        }, {
+          "x": 488.27,
+          "y": 111.85
+        }, {
+          "x": 508.03,
+          "y": 111.85
+        }, {
+          "x": 525.34,
+          "y": 111.85
+        }, {
+          "x": 535.74,
+          "y": 111.85
+        }]
+      }, {
+        "id": "st3_arc8",
+        "name": "st3_arc8",
+        "sourceId": "st3_p4",
+        "targetId": "st3_t4",
+        "coordinates": [{
+          "x": 836.39,
+          "y": 85.16999999999999
+        }, {
+          "x": 852.91,
+          "y": 91.29499999999999
+        }, {
+          "x": 874.02,
+          "y": 99.12899999999999
+        }, {
+          "x": 891.72,
+          "y": 105.69999999999999
+        }, {
+          "x": 901.16,
+          "y": 109.201
+        }]
+      }, {
+        "id": "st3_arc7",
+        "name": "st3_arc7",
+        "sourceId": "st3_t3",
+        "targetId": "st3_p4",
+        "coordinates": [{
+          "x": 714.0400000000001,
+          "y": 81.86999999999999
+        }, {
+          "x": 729.51,
+          "y": 80.69999999999999
+        }, {
+          "x": 749.45,
+          "y": 79.18999999999998
+        }, {
+          "x": 766.85,
+          "y": 77.86999999999999
+        }, {
+          "x": 777.3000000000001,
+          "y": 77.07
+        }]
+      }, {
+        "id": "st3_arc9",
+        "name": "st3_arc9",
+        "sourceId": "st3_t4",
+        "targetId": "st3_p3",
+        "coordinates": [{
+          "x": 900.77,
+          "y": 118.33599999999998
+        }, {
+          "x": 838.32,
+          "y": 117.121
+        }, {
+          "x": 681.2,
+          "y": 114.06299999999999
+        }, {
+          "x": 607.19,
+          "y": 112.62299999999999
+        }, {
+          "x": 596.9,
+          "y": 112.42199999999998
+        }]
+      }],
+      "tokens": [{
+        "id": "st3_tn1",
+        "name": "st3_tn1",
+        "agentNet": ""
+      }],
+      "initialMarking": [{
+        "tokenId": "st3_tn1",
+        "placeId": "st3_p1"
+      }],
+      "activeIntervals": [{
+        "startTime": "60",
+        "endTime": "100"
+      }, {
+        "startTime": "140",
+        "endTime": "180"
+      }],
+      "positionX": 1374.05,
+      "positionY": 221.2
+    }, {
+      "id": "student_1",
+      "name": "student_1",
+      "places": [{
+        "id": "st1_p6",
+        "name": "stop learning",
+        "x": 1296.25,
+        "y": 179.25,
+        "width": 60.4,
+        "height": 60.4
+      }, {
+        "id": "st1_p5",
+        "name": "exam",
+        "x": 1055.12,
+        "y": 111.25,
+        "width": 60.4,
+        "height": 60.4
+      }, {
+        "id": "st1_p4",
+        "name": "sleeping",
+        "x": 813.99,
+        "y": 99.25,
+        "width": 60.4,
+        "height": 60.4
+      }, {
+        "id": "st1_p3",
+        "name": "learning",
+        "x": 572.86,
+        "y": 136.25,
+        "width": 60.4,
+        "height": 60.4
+      }, {
+        "id": "st1_p2",
+        "name": "study course info",
+        "x": 331.73,
+        "y": 136.25,
+        "width": 60.4,
+        "height": 60.4
+      }, {
+        "id": "st1_p1",
+        "name": "entry exams",
+        "x": 90.6,
+        "y": 136.25,
+        "width": 60.4,
+        "height": 60.4
+      }],
+      "transitions": [{
+        "id": "st1_t6",
+        "name": "finish exam",
+        "x": 1175.65,
+        "y": 179.25,
+        "width": 54.0,
+        "height": 36.0
+      }, {
+        "id": "st1_t5",
+        "name": "go to exam",
+        "x": 934.56,
+        "y": 84.25,
+        "width": 54.0,
+        "height": 36.0
+      }, {
+        "id": "st1_t4",
+        "name": "go to library",
+        "x": 934.56,
+        "y": 143.25,
+        "width": 54.0,
+        "height": 35.99999999999999
+      }, {
+        "id": "st1_t3",
+        "name": "go to bed",
+        "x": 693.43,
+        "y": 108.25,
+        "width": 54.0,
+        "height": 36.0
+      }, {
+        "id": "st1_t2",
+        "name": "choose courses",
+        "x": 452.3,
+        "y": 136.25,
+        "width": 54.0,
+        "height": 35.99999999999999
+      }, {
+        "id": "st1_t1",
+        "name": "passing exams",
+        "x": 211.17,
+        "y": 136.25,
+        "width": 53.999999999999986,
+        "height": 35.99999999999999
+      }],
+      "arcs": [{
+        "id": "st1_arc10",
+        "name": "st1_arc10",
+        "sourceId": "st1_p4",
+        "targetId": "st1_t5",
+        "coordinates": [{
+          "x": 844.3,
+          "y": 95.53999999999999
+        }, {
+          "x": 860.31,
+          "y": 93.52
+        }, {
+          "x": 880.29,
+          "y": 90.99
+        }, {
+          "x": 897.28,
+          "y": 88.83999999999999
+        }, {
+          "x": 907.41,
+          "y": 87.55999999999999
+        }]
+      }, {
+        "id": "st1_arc11",
+        "name": "st1_arc11",
+        "sourceId": "st1_p3",
+        "targetId": "st1_t5",
+        "coordinates": [{
+          "x": 596.7,
+          "y": 117.43499999999999
+        }, {
+          "x": 608.81,
+          "y": 107.46
+        }, {
+          "x": 621.21,
+          "y": 97.25
+        }, {
+          "x": 666.43,
+          "y": 81.25
+        }, {
+          "x": 783.64,
+          "y": 60.25
+        }, {
+          "x": 844.34,
+          "y": 60.25
+        }, {
+          "x": 889.56,
+          "y": 69.25
+        }, {
+          "x": 892.85,
+          "y": 70.37
+        }, {
+          "x": 897.63,
+          "y": 72.0
+        }, {
+          "x": 907.45,
+          "y": 75.35
+        }]
+      }, {
+        "id": "st1_arc12",
+        "name": "st1_arc12",
+        "sourceId": "st1_t5",
+        "targetId": "st1_p5",
+        "coordinates": [{
+          "x": 961.57,
+          "y": 90.16999999999999
+        }, {
+          "x": 977.3,
+          "y": 93.75999999999999
+        }, {
+          "x": 997.65,
+          "y": 98.39
+        }, {
+          "x": 1015.26,
+          "y": 102.39999999999999
+        }, {
+          "x": 1025.25,
+          "y": 104.67999999999999
+        }]
+      }, {
+        "id": "st1_arc13",
+        "name": "st1_arc13",
+        "sourceId": "st1_p5",
+        "targetId": "st1_t6",
+        "coordinates": [{
+          "x": 1081.85,
+          "y": 126.005
+        }, {
+          "x": 1098.85,
+          "y": 135.73899999999998
+        }, {
+          "x": 1121.25,
+          "y": 148.613
+        }, {
+          "x": 1139.85,
+          "y": 159.26299999999998
+        }, {
+          "x": 1148.55,
+          "y": 164.289
+        }]
+      }, {
+        "id": "st1_arc14",
+        "name": "st1_arc14",
+        "sourceId": "st1_t6",
+        "targetId": "st1_p3",
+        "coordinates": [{
+          "x": 1148.65,
+          "y": 182.761
+        }, {
+          "x": 1113.75,
+          "y": 187.471
+        }, {
+          "x": 1056.12,
+          "y": 195.25
+        }, {
+          "x": 692.43,
+          "y": 195.25
+        }, {
+          "x": 644.39,
+          "y": 171.34799999999998
+        }, {
+          "x": 609.47,
+          "y": 153.971
+        }, {
+          "x": 600.47,
+          "y": 149.49
+        }]
+      }, {
+        "id": "st1_arc15",
+        "name": "st1_arc15",
+        "sourceId": "st1_t6",
+        "targetId": "st1_p6",
+        "coordinates": [{
+          "x": 1202.75,
+          "y": 179.25
+        }, {
+          "x": 1218.05,
+          "y": 179.25
+        }, {
+          "x": 1237.85,
+          "y": 179.25
+        }, {
+          "x": 1255.15,
+          "y": 179.25
+        }, {
+          "x": 1265.55,
+          "y": 179.25
+        }]
+      }, {
+        "id": "st1_arc1",
+        "name": "st1_arc1",
+        "sourceId": "st1_p1",
+        "targetId": "st1_t1",
+        "coordinates": [{
+          "x": 121.214,
+          "y": 136.25
+        }, {
+          "x": 137.231,
+          "y": 136.25
+        }, {
+          "x": 157.143,
+          "y": 136.25
+        }, {
+          "x": 174.06,
+          "y": 136.25
+        }, {
+          "x": 184.15,
+          "y": 136.25
+        }]
+      }, {
+        "id": "st1_arc2",
+        "name": "st1_arc2",
+        "sourceId": "st1_t1",
+        "targetId": "st1_p1",
+        "coordinates": [{
+          "x": 184.06,
+          "y": 148.589
+        }, {
+          "x": 174.59,
+          "y": 153.06799999999998
+        }, {
+          "x": 166.17000000000002,
+          "y": 157.05
+        }, {
+          "x": 138.951,
+          "y": 157.05
+        }, {
+          "x": 134.356,
+          "y": 155.031
+        }, {
+          "x": 128.02800000000002,
+          "y": 152.252
+        }, {
+          "x": 118.595,
+          "y": 148.108
+        }]
+      }, {
+        "id": "st1_arc3",
+        "name": "st1_arc3",
+        "sourceId": "st1_t1",
+        "targetId": "st1_p2",
+        "coordinates": [{
+          "x": 238.18,
+          "y": 136.25
+        }, {
+          "x": 253.54,
+          "y": 136.25
+        }, {
+          "x": 273.3,
+          "y": 136.25
+        }, {
+          "x": 290.61,
+          "y": 136.25
+        }, {
+          "x": 301.01,
+          "y": 136.25
+        }]
+      }, {
+        "id": "st1_arc4",
+        "name": "st1_arc4",
+        "sourceId": "st1_p2",
+        "targetId": "st1_t2",
+        "coordinates": [{
+          "x": 362.34,
+          "y": 136.25
+        }, {
+          "x": 378.36,
+          "y": 136.25
+        }, {
+          "x": 398.27,
+          "y": 136.25
+        }, {
+          "x": 415.19,
+          "y": 136.25
+        }, {
+          "x": 425.28,
+          "y": 136.25
+        }]
+      }, {
+        "id": "st1_arc5",
+        "name": "st1_arc5",
+        "sourceId": "st1_t2",
+        "targetId": "st1_p3",
+        "coordinates": [{
+          "x": 479.31,
+          "y": 136.25
+        }, {
+          "x": 494.67,
+          "y": 136.25
+        }, {
+          "x": 514.4300000000001,
+          "y": 136.25
+        }, {
+          "x": 531.74,
+          "y": 136.25
+        }, {
+          "x": 542.14,
+          "y": 136.25
+        }]
+      }, {
+        "id": "st1_arc6",
+        "name": "st1_arc6",
+        "sourceId": "st1_p3",
+        "targetId": "st1_t3",
+        "coordinates": [{
+          "x": 602.56,
+          "y": 129.47199999999998
+        }, {
+          "x": 618.83,
+          "y": 125.62899999999999
+        }, {
+          "x": 639.33,
+          "y": 120.78699999999999
+        }, {
+          "x": 656.65,
+          "y": 116.699
+        }, {
+          "x": 666.41,
+          "y": 114.392
+        }]
+      }, {
+        "id": "st1_arc7",
+        "name": "st1_arc7",
+        "sourceId": "st1_t3",
+        "targetId": "st1_p4",
+        "coordinates": [{
+          "x": 720.44,
+          "y": 106.27
+        }, {
+          "x": 735.91,
+          "y": 105.1
+        }, {
+          "x": 755.85,
+          "y": 103.58999999999999
+        }, {
+          "x": 773.25,
+          "y": 102.27
+        }, {
+          "x": 783.7,
+          "y": 101.47
+        }]
+      }, {
+        "id": "st1_arc8",
+        "name": "st1_arc8",
+        "sourceId": "st1_p4",
+        "targetId": "st1_t4",
+        "coordinates": [{
+          "x": 842.79,
+          "y": 109.57
+        }, {
+          "x": 859.31,
+          "y": 115.695
+        }, {
+          "x": 880.42,
+          "y": 123.529
+        }, {
+          "x": 898.12,
+          "y": 130.1
+        }, {
+          "x": 907.56,
+          "y": 133.601
+        }]
+      }, {
+        "id": "st1_arc9",
+        "name": "st1_arc9",
+        "sourceId": "st1_t4",
+        "targetId": "st1_p3",
+        "coordinates": [{
+          "x": 907.17,
+          "y": 142.736
+        }, {
+          "x": 844.72,
+          "y": 141.52100000000002
+        }, {
+          "x": 687.6,
+          "y": 138.463
+        }, {
+          "x": 613.59,
+          "y": 137.023
+        }, {
+          "x": 603.3,
+          "y": 136.822
+        }]
+      }],
+      "tokens": [{
+        "id": "st1_tn1",
+        "name": "st1_tn1",
+        "agentNet": ""
+      }],
+      "initialMarking": [{
+        "tokenId": "st1_tn1",
+        "placeId": "st1_p1"
+      }],
+      "positionX": 1386.8500000000001,
+      "positionY": 270.0
+    }]
+  },
+  "endTime": "200"
+}

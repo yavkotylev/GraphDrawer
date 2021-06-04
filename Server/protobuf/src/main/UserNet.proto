@@ -1,0 +1,69 @@
+syntax = "proto3";
+option java_multiple_files = true;
+
+package protobuf.usernet;
+
+message UserNet {
+  string id = 1;
+  optional string name = 2;
+  repeated Place places = 3;
+  string startPlaceId = 4;
+  repeated Transition transitions = 5;
+  repeated Arc arcs = 6;
+  repeated Token tokens = 7;
+  repeated InitialMarking initialMarking = 8;
+  repeated AgentNet agentNets = 9;
+}
+
+message AgentNet {
+  string id = 1;
+  optional string name = 2;
+  string startPlaceId = 4;
+  repeated Place places = 5;
+  repeated Transition transitions = 6;
+  repeated Arc arcs = 7;
+  repeated Token tokens = 8;
+  repeated InitialMarking initialMarking = 9;
+  optional int64 threshold = 10;
+  optional int64 intervalDuration = 11;
+  optional int64 distanceBetweenIntervals = 12;
+}
+
+message Place {
+  string id = 1;
+  optional string name = 2;
+  optional double x = 3;
+  optional double y = 4;
+}
+
+message Transition {
+  string id = 1;
+  optional string name = 2;
+  optional double x = 3;
+  optional double y = 4;
+}
+
+message Arc {
+  string id = 1;
+  optional string name = 2;
+  string sourceId = 3;
+  string targetId = 4;
+}
+
+message Token {
+  string id = 1;
+  optional string name = 2;
+  optional string agentNet = 3;
+  optional Color color = 4;
+}
+
+message InitialMarking {
+  string tokenId = 1;
+  string placeId = 2;
+}
+
+message Color{
+  optional int32 r = 1;
+  optional int32 g = 2;
+  optional int32 b = 3;
+}
